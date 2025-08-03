@@ -40,9 +40,9 @@ namespace LibraryManagement.PresentationLayer
             {
                 PresentationLayer.FRM_DİALOG frmdialog = new FRM_DİALOG();
                 if (txtPassword.Text.Length < 8 && (txtName.Text.Trim() != "" || txtUserName.Text.Trim() != "" || comPerm.Text.Trim() != ""))
-                    frmdialog.lblDialog.Text = "يجب ان تكون كلمة المرور اكبر من 8 احرف";
+                    frmdialog.lblDialog.Text = "Mật khẩu phải có ít nhất 8 ký tự";
                 else
-                    frmdialog.lblDialog.Text = "يرجى ملئ كل الخانات";
+                    frmdialog.lblDialog.Text = "Vui lòng điền đầy đủ thông tin";
                 frmdialog.Show();
             }
             else
@@ -79,7 +79,7 @@ namespace LibraryManagement.PresentationLayer
 
         private void txtName_KeyPress(object sender, KeyPressEventArgs e)
         {
-            Regex rx = new Regex("^[ا-ي]$");
+            Regex rx = new Regex(@"^[a-zA-ZÀ-ỹ\s]$");
             if (!rx.IsMatch(e.KeyChar.ToString()) && !char.IsControl(e.KeyChar))
                 e.Handled = true;
         }
@@ -91,7 +91,7 @@ namespace LibraryManagement.PresentationLayer
             if (txtPassword.Text.Length < 8)
             {
                 PresentationLayer.FRM_DİALOG FrmDialog = new FRM_DİALOG();
-                FrmDialog.lblDialog.Text = "يجب ان تكون كلمة المرور اكبر من 8 احرف";
+                FrmDialog.lblDialog.Text = "Mật khẩu phải có ít nhất 8 ký tự";
                 FrmDialog.Show();
             }
         }

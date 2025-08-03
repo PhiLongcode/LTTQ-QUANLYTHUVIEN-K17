@@ -31,5 +31,10 @@ namespace LibraryManagement.PresentationLayer
         {
             this.Close();
         }
+
+        private void lblAdd_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

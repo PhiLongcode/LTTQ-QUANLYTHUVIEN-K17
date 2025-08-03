@@ -63,7 +63,7 @@ namespace LibraryManagement.PresentationLayer
                     BL.CLS_BOR BLBOR = new BL.CLS_BOR();
                     BLBOR.Insert(dataGridView1.CurrentRow.Cells[1].Value.ToString(), dataGridView2.CurrentRow.Cells[1].Value.ToString(), BorDate1.Value.ToString(), BorDate2.Value.ToString(), Convert.ToInt32(txtPrice.Text));
                     PresentationLayer.FRM_ADDED frmadded = new FRM_ADDED();
-                    frmadded.lblAdd.Text = "تم استعاره الكتاب";
+                    frmadded.lblAdd.Text = "Đã mượn sách thành công";
                     frmadded.Show();
                     this.Close();
                 }
@@ -94,6 +94,11 @@ namespace LibraryManagement.PresentationLayer
             // Load to Student
             DataTable dt2 = new DataTable();
             dataGridView1.DataSource = dt2 = BLSELL.LoadST();
+
+        }
+
+        private void guna2GradientPanel2_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

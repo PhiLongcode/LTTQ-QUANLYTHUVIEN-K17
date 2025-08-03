@@ -21,14 +21,14 @@ namespace LibraryManagement.BL
             return dt;
         }
         // Insert Date
-        public void Insert(string NAME, string TLOCATİON, string PHONE, string EMAİL, 
+        public void Insert(string NAME, string TLOCATION, string PHONE, string EMAIL, 
             string SCHOOL, string DEP, MemoryStream COVER, string IdentificationNumber)
         {
             SqlParameter[] pr = new SqlParameter[8];
             pr[0] = new SqlParameter("NAME", NAME);
-            pr[1] = new SqlParameter("TLOCATİON", TLOCATİON);
+            pr[1] = new SqlParameter("TLOCATION", TLOCATION);
             pr[2] = new SqlParameter("PHONE", PHONE);
-            pr[3] = new SqlParameter("EMAİL", EMAİL);
+            pr[3] = new SqlParameter("EMAIL", EMAIL);
             pr[4] = new SqlParameter("SCHOOL", SCHOOL);
             pr[5] = new SqlParameter("DEP", DEP);
             pr[6] = new SqlParameter("COVER", COVER.ToArray());
@@ -47,22 +47,22 @@ namespace LibraryManagement.BL
             return dt;
         }
         // Update Date
-        public void update(string NAME, string TLOCATİON, string PHONE, string EMAİL,
+        public void update(string NAME, string TLOCATION, string PHONE, string EMAIL,
             string SCHOOL, string DEP, MemoryStream COVER, string IdentificationNumber,int ID)
         {
 
             SqlParameter[] pr = new SqlParameter[9];
             pr[0] = new SqlParameter("NAME", NAME);
-            pr[1] = new SqlParameter("TLOCATİON", TLOCATİON);
+            pr[1] = new SqlParameter("TLOCATION", TLOCATION);
             pr[2] = new SqlParameter("PHONE", PHONE);
-            pr[3] = new SqlParameter("EMAİL", EMAİL);
+            pr[3] = new SqlParameter("EMAIL", EMAIL);
             pr[4] = new SqlParameter("SCHOOL", SCHOOL);
             pr[5] = new SqlParameter("DEP", DEP);
             pr[6] = new SqlParameter("COVER", COVER.ToArray());
             pr[7] = new SqlParameter("IdentificationNumber", IdentificationNumber);
             pr[8] = new SqlParameter("ID", ID);
             DAL.Open();
-            DAL.Excute("PREDITST", pr);
+            DAL.Excute("PR_EDITST", pr);
             DAL.Close();
         }
         // Delete Date

@@ -65,14 +65,15 @@ namespace LibraryManagement.PresentationLayer
             this.lblAdd.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblAdd.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.lblAdd, BunifuAnimatorNS.DecorationType.None);
-            this.lblAdd.Font = new System.Drawing.Font("LBC", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(19)))), ((int)(((byte)(254)))));
             this.lblAdd.Location = new System.Drawing.Point(337, 452);
             this.lblAdd.Name = "lblAdd";
-            this.lblAdd.Size = new System.Drawing.Size(326, 51);
+            this.lblAdd.Size = new System.Drawing.Size(345, 46);
             this.lblAdd.TabIndex = 5;
-            this.lblAdd.Text = "تمت الاضافه بنجاح";
+            this.lblAdd.Text = "Thêm thành công";
             this.lblAdd.Visible = false;
+            this.lblAdd.Click += new System.EventHandler(this.lblAdd_Click);
             // 
             // pictureBox1
             // 
@@ -94,14 +95,14 @@ namespace LibraryManagement.PresentationLayer
             // 
             // FRM_ADDED
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1000, 599);
             this.Controls.Add(this.lblAdd);
             this.Controls.Add(this.pictureBox1);
             this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
-            this.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FRM_ADDED";

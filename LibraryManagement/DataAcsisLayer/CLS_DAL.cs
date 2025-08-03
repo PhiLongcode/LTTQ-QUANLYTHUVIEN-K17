@@ -13,7 +13,7 @@ namespace LibraryManagement.DataAcsisLayer
         SqlConnection con = new SqlConnection();
         public CLS_DAL()
         {
-            con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\DBLIBM.mdf;Integrated Security=True");
+            con = new SqlConnection(@"Data Source=MSI;Initial Catalog=LibraryManagementDB;Integrated Security=True");
         }
 
         // Method to open sqlcon

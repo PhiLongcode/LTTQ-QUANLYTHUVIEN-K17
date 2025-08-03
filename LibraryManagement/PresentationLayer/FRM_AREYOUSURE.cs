@@ -24,6 +24,12 @@ namespace LibraryManagement.PresentationLayer
             bunifuTransition1.ShowSync(lblAreYouWant);
             bunifuTransition1.ShowSync(btnNo);
             bunifuTransition1.ShowSync(btnYes);
+
+            // Vietnamese translations
+            lblAreYouSure.Text = "Bạn có chắc chắn không?";
+            lblAreYouWant.Text = "Bạn muốn thực hiện thao tác này?";
+            btnYes.Text = "Có";
+            btnNo.Text = "Không";
         }
 
         private void btnYes_Click(object sender, EventArgs e)

@@ -30,7 +30,7 @@ namespace LibraryManagement.PresentationLayer
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            BunifuAnimatorNS.Animation animation7 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation2 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FRM_ADDBOOKS));
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
@@ -68,7 +68,7 @@ namespace LibraryManagement.PresentationLayer
             // 
             // bunifuElipse1
             // 
-            this.bunifuElipse1.ElipseRadius = 90;
+            this.bunifuElipse1.ElipseRadius = 15;
             this.bunifuElipse1.TargetControl = this;
             // 
             // guna2GradientPanel1
@@ -109,7 +109,7 @@ namespace LibraryManagement.PresentationLayer
             this.txtbookname.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.txtbookname.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTransition1.SetDecoration(this.txtbookname, BunifuAnimatorNS.DecorationType.None);
-            this.txtbookname.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtbookname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbookname.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtbookname.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtbookname.HintText = "";
@@ -131,7 +131,7 @@ namespace LibraryManagement.PresentationLayer
             this.txtprice.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.txtprice.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTransition1.SetDecoration(this.txtprice, BunifuAnimatorNS.DecorationType.None);
-            this.txtprice.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtprice.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtprice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtprice.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtprice.HintText = "";
@@ -154,7 +154,7 @@ namespace LibraryManagement.PresentationLayer
             this.txtauther.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.txtauther.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTransition1.SetDecoration(this.txtauther, BunifuAnimatorNS.DecorationType.None);
-            this.txtauther.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtauther.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtauther.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtauther.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtauther.HintText = "";
@@ -191,7 +191,7 @@ namespace LibraryManagement.PresentationLayer
             this.groupBox3.Size = new System.Drawing.Size(444, 473);
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "معلومات ثانويه";
+            this.groupBox3.Text = "Thông tin phụ";
             // 
             // UploadPictures
             // 
@@ -200,10 +200,10 @@ namespace LibraryManagement.PresentationLayer
             this.UploadPictures.LinkColor = System.Drawing.Color.Fuchsia;
             this.UploadPictures.Location = new System.Drawing.Point(284, 346);
             this.UploadPictures.Name = "UploadPictures";
-            this.UploadPictures.Size = new System.Drawing.Size(112, 25);
+            this.UploadPictures.Size = new System.Drawing.Size(80, 24);
             this.UploadPictures.TabIndex = 4;
             this.UploadPictures.TabStop = true;
-            this.UploadPictures.Text = "تحميل صوره";
+            this.UploadPictures.Text = "Tải ảnh";
             this.UploadPictures.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.UploadPictures_LinkClicked);
             // 
             // pic_Cover
@@ -251,39 +251,39 @@ namespace LibraryManagement.PresentationLayer
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label10, BunifuAnimatorNS.DecorationType.None);
-            this.label10.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label10.Location = new System.Drawing.Point(284, 283);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(115, 25);
+            this.label10.Size = new System.Drawing.Size(132, 24);
             this.label10.TabIndex = 0;
-            this.label10.Text = "صورة الغلاف";
+            this.label10.Text = "Ảnh bìa sách";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label11, BunifuAnimatorNS.DecorationType.None);
-            this.label11.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label11.Location = new System.Drawing.Point(360, 158);
+            this.label11.Location = new System.Drawing.Point(323, 157);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(69, 25);
+            this.label11.Size = new System.Drawing.Size(93, 24);
             this.label11.TabIndex = 0;
-            this.label11.Text = "التقييم";
+            this.label11.Text = "Đánh giá";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label12, BunifuAnimatorNS.DecorationType.None);
-            this.label12.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label12.Location = new System.Drawing.Point(330, 64);
+            this.label12.Location = new System.Drawing.Point(282, 64);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(99, 25);
+            this.label12.Size = new System.Drawing.Size(144, 24);
             this.label12.TabIndex = 0;
-            this.label12.Text = "تاريخ النشر";
+            this.label12.Text = "Ngày xuất bản";
             // 
             // groupBox2
             // 
@@ -304,7 +304,7 @@ namespace LibraryManagement.PresentationLayer
             this.groupBox2.Size = new System.Drawing.Size(444, 473);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "المعلومات الاساسيه";
+            this.groupBox2.Text = "Thông tin cơ bản";
             // 
             // CatAdd
             // 
@@ -313,22 +313,22 @@ namespace LibraryManagement.PresentationLayer
             this.CatAdd.LinkColor = System.Drawing.Color.Fuchsia;
             this.CatAdd.Location = new System.Drawing.Point(25, 399);
             this.CatAdd.Name = "CatAdd";
-            this.CatAdd.Size = new System.Drawing.Size(63, 25);
+            this.CatAdd.Size = new System.Drawing.Size(64, 24);
             this.CatAdd.TabIndex = 4;
             this.CatAdd.TabStop = true;
-            this.CatAdd.Text = "اضافه";
+            this.CatAdd.Text = "Thêm";
             this.CatAdd.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.CatAdd_LinkClicked);
             // 
             // comboBox1
             // 
             this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.bunifuTransition1.SetDecoration(this.comboBox1, BunifuAnimatorNS.DecorationType.None);
-            this.comboBox1.Font = new System.Drawing.Font("LBC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(94, 391);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(332, 39);
+            this.comboBox1.Size = new System.Drawing.Size(332, 37);
             this.comboBox1.TabIndex = 8;
             // 
             // label5
@@ -336,52 +336,52 @@ namespace LibraryManagement.PresentationLayer
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label5, BunifuAnimatorNS.DecorationType.None);
-            this.label5.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label5.Location = new System.Drawing.Point(328, 346);
+            this.label5.Location = new System.Drawing.Point(265, 346);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(103, 25);
+            this.label5.Size = new System.Drawing.Size(146, 24);
             this.label5.TabIndex = 0;
-            this.label5.Text = "اسم الصنف";
+            this.label5.Text = "Tên danh mục";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label6, BunifuAnimatorNS.DecorationType.None);
-            this.label6.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label6.Location = new System.Drawing.Point(370, 252);
+            this.label6.Location = new System.Drawing.Point(345, 253);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(61, 25);
+            this.label6.Size = new System.Drawing.Size(41, 24);
             this.label6.TabIndex = 0;
-            this.label6.Text = "السعر";
+            this.label6.Text = "Giá";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label7, BunifuAnimatorNS.DecorationType.None);
-            this.label7.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label7.Location = new System.Drawing.Point(360, 158);
+            this.label7.Location = new System.Drawing.Point(332, 157);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(71, 25);
+            this.label7.Size = new System.Drawing.Size(79, 24);
             this.label7.TabIndex = 0;
-            this.label7.Text = "المؤلف";
+            this.label7.Text = "Tác giả";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label8, BunifuAnimatorNS.DecorationType.None);
-            this.label8.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label8.Location = new System.Drawing.Point(326, 64);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(105, 25);
+            this.label8.Size = new System.Drawing.Size(97, 24);
             this.label8.TabIndex = 0;
-            this.label8.Text = "اسم الكتاب";
+            this.label8.Text = "Tên sách";
             // 
             // btnClose
             // 
@@ -404,7 +404,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnBookAdd.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnBookAdd.BackColor = System.Drawing.Color.Transparent;
             this.btnBookAdd.BorderColor = System.Drawing.Color.Transparent;
-            this.btnBookAdd.BorderRadius = 25;
+            this.btnBookAdd.BorderRadius = 15;
             this.btnBookAdd.BorderStyle = System.Drawing.Drawing2D.DashStyle.DashDotDot;
             this.bunifuTransition1.SetDecoration(this.btnBookAdd, BunifuAnimatorNS.DecorationType.None);
             this.btnBookAdd.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -414,7 +414,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnBookAdd.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnBookAdd.FillColor = System.Drawing.Color.Purple;
             this.btnBookAdd.FillColor2 = System.Drawing.Color.Black;
-            this.btnBookAdd.Font = new System.Drawing.Font("LBC", 20F, System.Drawing.FontStyle.Bold);
+            this.btnBookAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
             this.btnBookAdd.ForeColor = System.Drawing.Color.White;
             this.btnBookAdd.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnBookAdd.ImageOffset = new System.Drawing.Point(0, 20);
@@ -423,54 +423,54 @@ namespace LibraryManagement.PresentationLayer
             this.btnBookAdd.Name = "btnBookAdd";
             this.btnBookAdd.Size = new System.Drawing.Size(335, 53);
             this.btnBookAdd.TabIndex = 4;
-            this.btnBookAdd.Text = "اضافة";
+            this.btnBookAdd.Text = "Thêm";
             this.btnBookAdd.Tile = true;
             this.btnBookAdd.Click += new System.EventHandler(this.btnBookAdd_Click);
             // 
             // bunifuElipse2
             // 
-            this.bunifuElipse2.ElipseRadius = 30;
+            this.bunifuElipse2.ElipseRadius = 15;
             this.bunifuElipse2.TargetControl = this.txtbookname;
             // 
             // bunifuElipse3
             // 
-            this.bunifuElipse3.ElipseRadius = 30;
+            this.bunifuElipse3.ElipseRadius = 15;
             this.bunifuElipse3.TargetControl = this.txtauther;
             // 
             // bunifuElipse4
             // 
-            this.bunifuElipse4.ElipseRadius = 30;
+            this.bunifuElipse4.ElipseRadius = 15;
             this.bunifuElipse4.TargetControl = this.txtprice;
             // 
             // bunifuTransition1
             // 
             this.bunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.VertSlide;
             this.bunifuTransition1.Cursor = null;
-            animation7.AnimateOnlyDifferences = true;
-            animation7.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation7.BlindCoeff")));
-            animation7.LeafCoeff = 0F;
-            animation7.MaxTime = 1F;
-            animation7.MinTime = 0F;
-            animation7.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation7.MosaicCoeff")));
-            animation7.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation7.MosaicShift")));
-            animation7.MosaicSize = 0;
-            animation7.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
-            animation7.RotateCoeff = 0F;
-            animation7.RotateLimit = 0F;
-            animation7.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation7.ScaleCoeff")));
-            animation7.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation7.SlideCoeff")));
-            animation7.TimeCoeff = 0F;
-            animation7.TransparencyCoeff = 0F;
-            this.bunifuTransition1.DefaultAnimation = animation7;
+            animation2.AnimateOnlyDifferences = true;
+            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
+            animation2.LeafCoeff = 0F;
+            animation2.MaxTime = 1F;
+            animation2.MinTime = 0F;
+            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
+            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
+            animation2.MosaicSize = 0;
+            animation2.Padding = new System.Windows.Forms.Padding(0);
+            animation2.RotateCoeff = 0F;
+            animation2.RotateLimit = 0F;
+            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
+            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
+            animation2.TimeCoeff = 0F;
+            animation2.TransparencyCoeff = 0F;
+            this.bunifuTransition1.DefaultAnimation = animation2;
             // 
             // FRM_ADDBOOKS
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(946, 587);
             this.Controls.Add(this.guna2GradientPanel1);
             this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
-            this.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6);

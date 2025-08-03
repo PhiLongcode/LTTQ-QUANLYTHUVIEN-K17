@@ -45,7 +45,6 @@ namespace LibraryManagement.PresentationLayer
             this.txtUserName = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtName = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.label8 = new System.Windows.Forms.Label();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -70,7 +69,6 @@ namespace LibraryManagement.PresentationLayer
             this.guna2GradientPanel2.Controls.Add(this.txtUserName);
             this.guna2GradientPanel2.Controls.Add(this.label2);
             this.guna2GradientPanel2.Controls.Add(this.txtName);
-            this.guna2GradientPanel2.Controls.Add(this.label8);
             this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2GradientPanel2.FillColor = System.Drawing.Color.Purple;
             this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.Black;
@@ -94,7 +92,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnAdd.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnAdd.FillColor = System.Drawing.Color.Purple;
             this.btnAdd.FillColor2 = System.Drawing.Color.Black;
-            this.btnAdd.Font = new System.Drawing.Font("LBC", 18F, System.Drawing.FontStyle.Bold);
+            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold);
             this.btnAdd.ForeColor = System.Drawing.Color.White;
             this.btnAdd.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnAdd.ImageOffset = new System.Drawing.Point(0, 20);
@@ -103,23 +101,23 @@ namespace LibraryManagement.PresentationLayer
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(252, 48);
             this.btnAdd.TabIndex = 12;
-            this.btnAdd.Text = "اضافة";
+            this.btnAdd.Text = "Thêm";
             this.btnAdd.Tile = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // comPerm
             // 
             this.comPerm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.comPerm.Font = new System.Drawing.Font("LBC", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comPerm.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comPerm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.comPerm.FormattingEnabled = true;
             this.comPerm.Items.AddRange(new object[] {
-            "مدير",
-            "مستخدم"});
+            "Quản lý",
+            "Người dùng"});
             this.comPerm.Location = new System.Drawing.Point(649, 350);
             this.comPerm.Name = "comPerm";
             this.comPerm.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.comPerm.Size = new System.Drawing.Size(252, 39);
+            this.comPerm.Size = new System.Drawing.Size(252, 37);
             this.comPerm.TabIndex = 11;
             // 
             // panel1
@@ -161,7 +159,7 @@ namespace LibraryManagement.PresentationLayer
             this.pictureBox1.Image = global::LibraryManagement.Properties.Resources.لقطة_الشاشة_2022_07_09_141638;
             this.pictureBox1.Location = new System.Drawing.Point(469, 341);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(103, 103);
+            this.pictureBox1.Size = new System.Drawing.Size(104, 94);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -180,7 +178,7 @@ namespace LibraryManagement.PresentationLayer
             // lblTimer
             // 
             this.lblTimer.BackColor = System.Drawing.Color.Transparent;
-            this.lblTimer.Font = new System.Drawing.Font("Roboto Slab Light", 25F, System.Drawing.FontStyle.Bold);
+            this.lblTimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold);
             this.lblTimer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.lblTimer.Location = new System.Drawing.Point(139, 362);
             this.lblTimer.Name = "lblTimer";
@@ -193,32 +191,32 @@ namespace LibraryManagement.PresentationLayer
             // 
             this.lblAddNewUser.AutoSize = true;
             this.lblAddNewUser.BackColor = System.Drawing.Color.Transparent;
-            this.lblAddNewUser.Font = new System.Drawing.Font("LBC", 30F, System.Drawing.FontStyle.Bold);
+            this.lblAddNewUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold);
             this.lblAddNewUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.lblAddNewUser.Location = new System.Drawing.Point(116, 24);
             this.lblAddNewUser.Name = "lblAddNewUser";
-            this.lblAddNewUser.Size = new System.Drawing.Size(371, 51);
+            this.lblAddNewUser.Size = new System.Drawing.Size(424, 46);
             this.lblAddNewUser.TabIndex = 8;
-            this.lblAddNewUser.Text = "اضافه مستخدم جديد";
+            this.lblAddNewUser.Text = "Thêm người dùng mới";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label4.Location = new System.Drawing.Point(827, 317);
+            this.label4.Location = new System.Drawing.Point(645, 323);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(82, 25);
+            this.label4.Size = new System.Drawing.Size(113, 24);
             this.label4.TabIndex = 8;
-            this.label4.Text = "الصلاحيه";
+            this.label4.Text = "Quyền hạn";
             // 
             // txtPassword
             // 
             this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtPassword.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtPassword.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtPassword.HintText = "";
@@ -239,23 +237,23 @@ namespace LibraryManagement.PresentationLayer
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label3.Location = new System.Drawing.Point(804, 221);
+            this.label3.Location = new System.Drawing.Point(664, 225);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(105, 25);
+            this.label3.Size = new System.Drawing.Size(94, 24);
             this.label3.TabIndex = 8;
-            this.label3.Text = "كلمه المرور";
+            this.label3.Text = "Mật khẩu";
             // 
             // txtUserName
             // 
             this.txtUserName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtUserName.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.txtUserName.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtUserName.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUserName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtUserName.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.txtUserName.HintText = "مثلا : yasir7_23";
+            this.txtUserName.HintText = "Ví dụ: user123";
             this.txtUserName.isPassword = false;
             this.txtUserName.LineFocusedColor = System.Drawing.Color.Purple;
             this.txtUserName.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
@@ -274,23 +272,23 @@ namespace LibraryManagement.PresentationLayer
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label2.Location = new System.Drawing.Point(773, 125);
+            this.label2.Location = new System.Drawing.Point(655, 130);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(136, 25);
+            this.label2.Size = new System.Drawing.Size(154, 24);
             this.label2.TabIndex = 8;
-            this.label2.Text = "اسم المستخدم";
+            this.label2.Text = "Tên đăng nhập";
             // 
             // txtName
             // 
             this.txtName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtName.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.txtName.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtName.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtName.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.txtName.HintText = "مثلا :ياسر الراوي";
+            this.txtName.HintText = "Ví dụ: Nguyễn Văn A";
             this.txtName.isPassword = false;
             this.txtName.LineFocusedColor = System.Drawing.Color.Purple;
             this.txtName.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
@@ -303,18 +301,6 @@ namespace LibraryManagement.PresentationLayer
             this.txtName.TabIndex = 0;
             this.txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtName_KeyPress);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label8.Location = new System.Drawing.Point(795, 29);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(114, 25);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "الاسم الكامل";
             // 
             // bunifuElipse1
             // 
@@ -354,11 +340,11 @@ namespace LibraryManagement.PresentationLayer
             // 
             // FRM_ADDUSER
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(930, 497);
             this.Controls.Add(this.guna2GradientPanel2);
-            this.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FRM_ADDUSER";
@@ -395,7 +381,6 @@ namespace LibraryManagement.PresentationLayer
         public Bunifu.Framework.UI.BunifuMaterialTextbox txtUserName;
         private System.Windows.Forms.Label label2;
         public Bunifu.Framework.UI.BunifuMaterialTextbox txtName;
-        private System.Windows.Forms.Label label8;
         public System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.PictureBox pic_Cover;
         private System.Windows.Forms.Label lblTimer;

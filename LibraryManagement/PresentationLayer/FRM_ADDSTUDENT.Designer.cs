@@ -72,7 +72,7 @@ namespace LibraryManagement.PresentationLayer
             // 
             // bunifuElipse1
             // 
-            this.bunifuElipse1.ElipseRadius = 90;
+            this.bunifuElipse1.ElipseRadius = 15;
             this.bunifuElipse1.TargetControl = this;
             // 
             // guna2GradientPanel1
@@ -127,7 +127,6 @@ namespace LibraryManagement.PresentationLayer
             this.guna2GradientPanel3.Controls.Add(this.groupBox1);
             this.guna2GradientPanel3.Controls.Add(this.groupBox4);
             this.guna2GradientPanel3.Controls.Add(this.btnAdd);
-            this.guna2GradientPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2GradientPanel3.FillColor = System.Drawing.Color.Purple;
             this.guna2GradientPanel3.FillColor2 = System.Drawing.Color.Black;
             this.guna2GradientPanel3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
@@ -135,13 +134,14 @@ namespace LibraryManagement.PresentationLayer
             this.guna2GradientPanel3.Name = "guna2GradientPanel3";
             this.guna2GradientPanel3.Size = new System.Drawing.Size(946, 630);
             this.guna2GradientPanel3.TabIndex = 9;
+            this.guna2GradientPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel3_Paint);
             // 
             // txtEmail
             // 
             this.txtEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtEmail.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.txtEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtEmail.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtEmail.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtEmail.HintText = "";
@@ -163,7 +163,7 @@ namespace LibraryManagement.PresentationLayer
             this.txtIdNumber.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtIdNumber.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.txtIdNumber.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtIdNumber.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIdNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIdNumber.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtIdNumber.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtIdNumber.HintText = "";
@@ -185,7 +185,7 @@ namespace LibraryManagement.PresentationLayer
             this.txtLocation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtLocation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.txtLocation.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtLocation.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLocation.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLocation.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtLocation.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtLocation.HintText = "";
@@ -206,7 +206,7 @@ namespace LibraryManagement.PresentationLayer
             this.txtStudentName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtStudentName.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.txtStudentName.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtStudentName.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStudentName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtStudentName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtStudentName.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtStudentName.HintText = "";
@@ -228,7 +228,7 @@ namespace LibraryManagement.PresentationLayer
             this.txtPhone.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtPhone.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.txtPhone.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtPhone.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPhone.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtPhone.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtPhone.HintText = "";
@@ -250,7 +250,7 @@ namespace LibraryManagement.PresentationLayer
             this.txtSchool.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtSchool.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.txtSchool.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtSchool.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSchool.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSchool.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtSchool.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtSchool.HintText = "";
@@ -271,7 +271,7 @@ namespace LibraryManagement.PresentationLayer
             this.txtDep.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtDep.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.txtDep.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtDep.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDep.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDep.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtDep.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtDep.HintText = "";
@@ -304,7 +304,7 @@ namespace LibraryManagement.PresentationLayer
             this.groupBox1.Size = new System.Drawing.Size(444, 502);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "معلومات ثانويه";
+            this.groupBox1.Text = "Thông tin phụ";
             // 
             // linkLabel1
             // 
@@ -312,10 +312,10 @@ namespace LibraryManagement.PresentationLayer
             this.linkLabel1.LinkColor = System.Drawing.Color.Fuchsia;
             this.linkLabel1.Location = new System.Drawing.Point(306, 370);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(112, 25);
+            this.linkLabel1.Size = new System.Drawing.Size(80, 24);
             this.linkLabel1.TabIndex = 4;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "تحميل صوره";
+            this.linkLabel1.Text = "Tải ảnh";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.UploadPictures_LinkClicked);
             // 
             // pic_Cover
@@ -332,37 +332,37 @@ namespace LibraryManagement.PresentationLayer
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label1.Location = new System.Drawing.Point(303, 307);
+            this.label1.Location = new System.Drawing.Point(290, 309);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 25);
+            this.label1.Size = new System.Drawing.Size(138, 24);
             this.label1.TabIndex = 0;
-            this.label1.Text = "صوره الطالب";
+            this.label1.Text = "Ảnh sinh viên";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label2.Location = new System.Drawing.Point(289, 129);
+            this.label2.Location = new System.Drawing.Point(215, 123);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(139, 25);
+            this.label2.Size = new System.Drawing.Size(201, 24);
             this.label2.TabIndex = 0;
-            this.label2.Text = "القسم الدراسي";
+            this.label2.Text = "Khoa/Chuyên ngành";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label3.Location = new System.Drawing.Point(236, 35);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(192, 25);
+            this.label3.Size = new System.Drawing.Size(154, 24);
             this.label3.TabIndex = 0;
-            this.label3.Text = "اسم المدرسه او الكلية";
+            this.label3.Text = "Tên trường học";
             // 
             // groupBox4
             // 
@@ -381,74 +381,74 @@ namespace LibraryManagement.PresentationLayer
             this.groupBox4.Size = new System.Drawing.Size(444, 502);
             this.groupBox4.TabIndex = 6;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "المعلومات الاساسيه";
+            this.groupBox4.Text = "Thông tin cơ bản";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label15.Location = new System.Drawing.Point(337, 123);
+            this.label15.Location = new System.Drawing.Point(262, 123);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(101, 25);
+            this.label15.Size = new System.Drawing.Size(163, 24);
             this.label15.TabIndex = 0;
-            this.label15.Text = "رقم الهويه";
+            this.label15.Text = "Số CMND/CCCD";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label4.Location = new System.Drawing.Point(291, 307);
+            this.label4.Location = new System.Drawing.Point(351, 309);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(147, 25);
+            this.label4.Size = new System.Drawing.Size(62, 24);
             this.label4.TabIndex = 0;
-            this.label4.Text = "البريد الالكتروني";
+            this.label4.Text = "Email";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label9.Location = new System.Drawing.Point(337, 215);
+            this.label9.Location = new System.Drawing.Point(291, 213);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(101, 25);
+            this.label9.Size = new System.Drawing.Size(134, 24);
             this.label9.TabIndex = 0;
-            this.label9.Text = "رقم الهاتف";
+            this.label9.Text = "Số điện thoại";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label13.Location = new System.Drawing.Point(319, 399);
+            this.label13.Location = new System.Drawing.Point(339, 399);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(119, 25);
+            this.label13.Size = new System.Drawing.Size(74, 24);
             this.label13.TabIndex = 0;
-            this.label13.Text = "عنوان السكن";
+            this.label13.Text = "Địa chỉ";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label14.Location = new System.Drawing.Point(330, 31);
+            this.label14.Location = new System.Drawing.Point(276, 39);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(108, 25);
+            this.label14.Size = new System.Drawing.Size(137, 24);
             this.label14.TabIndex = 0;
-            this.label14.Text = "اسم الطالب";
+            this.label14.Text = "Tên sinh viên";
             // 
             // btnAdd
             // 
             this.btnAdd.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnAdd.BackColor = System.Drawing.Color.Transparent;
             this.btnAdd.BorderColor = System.Drawing.Color.Transparent;
-            this.btnAdd.BorderRadius = 25;
+            this.btnAdd.BorderRadius = 15;
             this.btnAdd.BorderStyle = System.Drawing.Drawing2D.DashStyle.DashDotDot;
             this.btnAdd.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnAdd.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -457,7 +457,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnAdd.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnAdd.FillColor = System.Drawing.Color.Purple;
             this.btnAdd.FillColor2 = System.Drawing.Color.Black;
-            this.btnAdd.Font = new System.Drawing.Font("LBC", 20F, System.Drawing.FontStyle.Bold);
+            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
             this.btnAdd.ForeColor = System.Drawing.Color.White;
             this.btnAdd.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnAdd.ImageOffset = new System.Drawing.Point(0, 20);
@@ -466,7 +466,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(335, 53);
             this.btnAdd.TabIndex = 4;
-            this.btnAdd.Text = "اضافة";
+            this.btnAdd.Text = "Thêm";
             this.btnAdd.Tile = true;
             this.btnAdd.Click += new System.EventHandler(this.btnBookAdd_Click);
             // 
@@ -507,11 +507,11 @@ namespace LibraryManagement.PresentationLayer
             // 
             // FRM_ADDSTUDENT
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(946, 630);
             this.Controls.Add(this.guna2GradientPanel1);
-            this.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6);

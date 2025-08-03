@@ -111,9 +111,14 @@ namespace LibraryManagement.PresentationLayer
 
         private void txtStudentName_KeyPress(object sender, KeyPressEventArgs e)
         {
-            Regex rx = new Regex(@"^[ا-يa-zA-ZöçüğşİŞÇÖĞÜı]$");
+            Regex rx = new Regex(@"^[a-zA-ZÀ-ỹöçüğşİŞÇÖĞÜı\s]$");
             if (!rx.IsMatch(e.KeyChar.ToString()) && !char.IsControl(e.KeyChar))
                 e.Handled = true;
+        }
+
+        private void guna2GradientPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

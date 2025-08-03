@@ -62,7 +62,7 @@ namespace LibraryManagement.PresentationLayer
         private void CatAdd_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             PresentationLayer.FRM_ADDCAT Fcat = new FRM_ADDCAT();
-            Fcat.btnCatAdd.Text = "اضافه";
+            Fcat.btnCatAdd.Text = "Thêm";
             Fcat.ID = 0;
             bunifuTransition1.ShowSync(Fcat);
         }
@@ -112,7 +112,7 @@ namespace LibraryManagement.PresentationLayer
 
         private void txtauther_KeyPress(object sender, KeyPressEventArgs e)
         {
-            Regex rx = new Regex("^[a-zA-Zا-يöçşığüİŞÇÖÜĞ]$");
+            Regex rx = new Regex(@"^[a-zA-ZÀ-ỹöçşığüİŞÇÖÜĞ\s]$");
             if (!rx.IsMatch(e.KeyChar.ToString()) && !char.IsControl(e.KeyChar))
                 e.Handled = true;
         }

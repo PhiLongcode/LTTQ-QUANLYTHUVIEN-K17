@@ -1,54 +1,31 @@
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csproj.AssemblyReference.cache
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_MAIN.resources
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.Properties.Resources.resources
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csproj.GenerateResource.cache
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csproj.CoreCompileInputs.cache
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagement.exe.config
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagement.exe
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\bin\Debug\LibraryManagement.pdb
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\bin\Debug\Guna.UI2.dll
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csproj.CopyComplete
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.exe
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.pdb
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\bin\Debug\Bunifu_UI_v1.52.dll
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\bin\Debug\DBLIBM.mdf
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\bin\Debug\DBLIBM_log.ldf
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_ADDCAT.resources
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_ADDED.resources
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_DİALOG.resources
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_EDİTED.resources
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_DELETED.resources
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_AREYOUSURE.resources
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_ADDBOOKS.resources
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_DETAİLSBOOKS.resources
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_ADDSTUDENT.resources
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_DETAİLSST.resources
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_MAKESELL.resources
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_BOR.resources
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_ADDUSER.resources
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_LOGİN.resources
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_START.resources
-C:\Users\alast\source\repos\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_RAPORT.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csproj.AssemblyReference.cache
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csproj.SuggestedBindingRedirects.cache
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_ADDUSER.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_BOR.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_LOGİN.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_MAKESELL.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_ADDSTUDENT.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_ADDBOOKS.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_ADDCAT.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_ADDED.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_AREYOUSURE.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_DELETED.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_DETAİLSST.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_DETAİLSBOOKS.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_DİALOG.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_EDİTED.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_MAIN.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_RAPORT.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_START.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.Properties.Resources.resources
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csproj.GenerateResource.cache
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.csproj.CoreCompileInputs.cache
-C:\Users\alast\Desktop\LibraryManagement\LibraryManagement\obj\Debug\LibraryManagement.pdb
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.csproj.AssemblyReference.cache
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_ADDUSER.resources
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_BOR.resources
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_LOGİN.resources
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_MAKESELL.resources
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_ADDSTUDENT.resources
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_ADDBOOKS.resources
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_ADDCAT.resources
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_ADDED.resources
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_AREYOUSURE.resources
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_DELETED.resources
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_DETAİLSST.resources
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_DETAİLSBOOKS.resources
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_DİALOG.resources
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_EDİTED.resources
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_MAIN.resources
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_RAPORT.resources
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.PresentationLayer.FRM_START.resources
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.csproj.GenerateResource.cache
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.Properties.Resources.resources
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.csproj.CoreCompileInputs.cache
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\bin\Debug\DBLIBM.mdf
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\bin\Debug\DBLIBM_log.ldf
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\bin\Debug\LibraryManagement.exe.config
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\bin\Debug\LibraryManagement.exe
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\bin\Debug\LibraryManagement.pdb
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\bin\Debug\Guna.UI2.dll
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryM.685EF3B5.Up2Date
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.exe
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.pdb
+D:\K17-KTPM\HK 5\LAPTRINHTRUCQUANPROJECT\Library-Management\LibraryManagement\obj\Debug\LibraryManagement.exe.config

@@ -54,5 +54,10 @@ namespace LibraryManagement.PresentationLayer
 
             }
         }
+
+        private void txt_catname_OnValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

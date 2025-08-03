@@ -134,5 +134,10 @@ namespace LibraryManagement.PresentationLayer
             panel1.DrawToBitmap(img, new Rectangle(Point.Empty, panel1.Size));
             e.Graphics.DrawImage(img,0,0);
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+              
+        }
     }
 }

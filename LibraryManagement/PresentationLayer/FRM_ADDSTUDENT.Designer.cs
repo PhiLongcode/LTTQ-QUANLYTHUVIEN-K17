@@ -346,7 +346,7 @@ namespace LibraryManagement.PresentationLayer
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label2.Location = new System.Drawing.Point(215, 123);
+            this.label2.Location = new System.Drawing.Point(46, 123);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(201, 24);
             this.label2.TabIndex = 0;
@@ -358,7 +358,7 @@ namespace LibraryManagement.PresentationLayer
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label3.Location = new System.Drawing.Point(236, 35);
+            this.label3.Location = new System.Drawing.Point(46, 39);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(154, 24);
             this.label3.TabIndex = 0;
@@ -389,7 +389,7 @@ namespace LibraryManagement.PresentationLayer
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label15.Location = new System.Drawing.Point(262, 123);
+            this.label15.Location = new System.Drawing.Point(36, 123);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(163, 24);
             this.label15.TabIndex = 0;
@@ -401,7 +401,7 @@ namespace LibraryManagement.PresentationLayer
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label4.Location = new System.Drawing.Point(351, 309);
+            this.label4.Location = new System.Drawing.Point(48, 309);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(62, 24);
             this.label4.TabIndex = 0;
@@ -413,7 +413,7 @@ namespace LibraryManagement.PresentationLayer
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label9.Location = new System.Drawing.Point(291, 213);
+            this.label9.Location = new System.Drawing.Point(39, 213);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(134, 24);
             this.label9.TabIndex = 0;
@@ -425,7 +425,7 @@ namespace LibraryManagement.PresentationLayer
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label13.Location = new System.Drawing.Point(339, 399);
+            this.label13.Location = new System.Drawing.Point(48, 399);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(74, 24);
             this.label13.TabIndex = 0;
@@ -437,7 +437,7 @@ namespace LibraryManagement.PresentationLayer
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label14.Location = new System.Drawing.Point(276, 39);
+            this.label14.Location = new System.Drawing.Point(36, 39);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(137, 24);
             this.label14.TabIndex = 0;

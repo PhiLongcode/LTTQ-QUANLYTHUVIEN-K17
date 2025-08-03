@@ -46,7 +46,7 @@ namespace LibraryManagement.PresentationLayer
             this.bunifuTransition1.SetDecoration(this.lblAreYouWant, BunifuAnimatorNS.DecorationType.None);
             this.lblAreYouWant.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAreYouWant.ForeColor = System.Drawing.Color.Indigo;
-            this.lblAreYouWant.Location = new System.Drawing.Point(338, 250);
+            this.lblAreYouWant.Location = new System.Drawing.Point(292, 252);
             this.lblAreYouWant.Name = "lblAreYouWant";
             this.lblAreYouWant.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.lblAreYouWant.Size = new System.Drawing.Size(410, 42);
@@ -61,7 +61,7 @@ namespace LibraryManagement.PresentationLayer
             this.bunifuTransition1.SetDecoration(this.lblAreYouSure, BunifuAnimatorNS.DecorationType.None);
             this.lblAreYouSure.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAreYouSure.ForeColor = System.Drawing.Color.MediumOrchid;
-            this.lblAreYouSure.Location = new System.Drawing.Point(302, 188);
+            this.lblAreYouSure.Location = new System.Drawing.Point(265, 188);
             this.lblAreYouSure.Name = "lblAreYouSure";
             this.lblAreYouSure.Size = new System.Drawing.Size(496, 42);
             this.lblAreYouSure.TabIndex = 13;
@@ -88,7 +88,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnNo.IdleFillColor = System.Drawing.Color.Indigo;
             this.btnNo.IdleForecolor = System.Drawing.Color.WhiteSmoke;
             this.btnNo.IdleLineColor = System.Drawing.Color.Transparent;
-            this.btnNo.Location = new System.Drawing.Point(389, 404);
+            this.btnNo.Location = new System.Drawing.Point(330, 404);
             this.btnNo.Margin = new System.Windows.Forms.Padding(8);
             this.btnNo.Name = "btnNo";
             this.btnNo.Size = new System.Drawing.Size(157, 50);
@@ -117,7 +117,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnYes.IdleFillColor = System.Drawing.Color.MediumOrchid;
             this.btnYes.IdleForecolor = System.Drawing.Color.WhiteSmoke;
             this.btnYes.IdleLineColor = System.Drawing.Color.Transparent;
-            this.btnYes.Location = new System.Drawing.Point(562, 404);
+            this.btnYes.Location = new System.Drawing.Point(529, 404);
             this.btnYes.Margin = new System.Windows.Forms.Padding(8);
             this.btnYes.Name = "btnYes";
             this.btnYes.Size = new System.Drawing.Size(157, 50);

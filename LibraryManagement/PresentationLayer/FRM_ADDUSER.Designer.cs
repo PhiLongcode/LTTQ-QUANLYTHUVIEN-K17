@@ -1,5 +1,4 @@
-﻿
-namespace LibraryManagement.PresentationLayer
+﻿namespace LibraryManagement.PresentationLayer
 {
     partial class FRM_ADDUSER
     {
@@ -45,6 +44,8 @@ namespace LibraryManagement.PresentationLayer
             this.txtUserName = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtName = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.chkActive = new System.Windows.Forms.CheckBox();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -69,6 +70,8 @@ namespace LibraryManagement.PresentationLayer
             this.guna2GradientPanel2.Controls.Add(this.txtUserName);
             this.guna2GradientPanel2.Controls.Add(this.label2);
             this.guna2GradientPanel2.Controls.Add(this.txtName);
+            this.guna2GradientPanel2.Controls.Add(this.label8);
+            this.guna2GradientPanel2.Controls.Add(this.chkActive);
             this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2GradientPanel2.FillColor = System.Drawing.Color.Purple;
             this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.Black;
@@ -83,7 +86,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnAdd.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnAdd.BackColor = System.Drawing.Color.Transparent;
             this.btnAdd.BorderColor = System.Drawing.Color.Transparent;
-            this.btnAdd.BorderRadius = 25;
+            this.btnAdd.BorderRadius = 5;
             this.btnAdd.BorderStyle = System.Drawing.Drawing2D.DashStyle.DashDotDot;
             this.btnAdd.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnAdd.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -112,8 +115,8 @@ namespace LibraryManagement.PresentationLayer
             this.comPerm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.comPerm.FormattingEnabled = true;
             this.comPerm.Items.AddRange(new object[] {
-            "Quản lý",
-            "Người dùng"});
+            "Admin",
+            "User"});
             this.comPerm.Location = new System.Drawing.Point(649, 350);
             this.comPerm.Name = "comPerm";
             this.comPerm.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -134,6 +137,7 @@ namespace LibraryManagement.PresentationLayer
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(603, 497);
             this.panel1.TabIndex = 10;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // btnClose
             // 
@@ -156,10 +160,10 @@ namespace LibraryManagement.PresentationLayer
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::LibraryManagement.Properties.Resources.لقطة_củaشاشة_2022_07_09_141638;
+            this.pictureBox1.Image = global::LibraryManagement.Properties.Resources.time;
             this.pictureBox1.Location = new System.Drawing.Point(469, 341);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(104, 94);
+            this.pictureBox1.Size = new System.Drawing.Size(103, 103);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
@@ -205,7 +209,7 @@ namespace LibraryManagement.PresentationLayer
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label4.Location = new System.Drawing.Point(645, 323);
+            this.label4.Location = new System.Drawing.Point(650, 323);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(113, 24);
             this.label4.TabIndex = 8;
@@ -228,7 +232,7 @@ namespace LibraryManagement.PresentationLayer
             this.txtPassword.Location = new System.Drawing.Point(649, 255);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(252, 48);
+            this.txtPassword.Size = new System.Drawing.Size(252, 56);
             this.txtPassword.TabIndex = 9;
             this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtPassword.Leave += new System.EventHandler(this.txtPassword_Leave);
@@ -239,7 +243,7 @@ namespace LibraryManagement.PresentationLayer
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label3.Location = new System.Drawing.Point(664, 225);
+            this.label3.Location = new System.Drawing.Point(650, 234);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(94, 24);
             this.label3.TabIndex = 8;
@@ -253,7 +257,7 @@ namespace LibraryManagement.PresentationLayer
             this.txtUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUserName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtUserName.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.txtUserName.HintText = "Ví dụ: user123";
+            this.txtUserName.HintText = "Ví dụ: user1";
             this.txtUserName.isPassword = false;
             this.txtUserName.LineFocusedColor = System.Drawing.Color.Purple;
             this.txtUserName.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
@@ -263,7 +267,7 @@ namespace LibraryManagement.PresentationLayer
             this.txtUserName.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.txtUserName.Size = new System.Drawing.Size(252, 48);
+            this.txtUserName.Size = new System.Drawing.Size(252, 58);
             this.txtUserName.TabIndex = 9;
             this.txtUserName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtUserName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUserName_KeyPress);
@@ -274,7 +278,7 @@ namespace LibraryManagement.PresentationLayer
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label2.Location = new System.Drawing.Point(655, 130);
+            this.label2.Location = new System.Drawing.Point(645, 130);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(154, 24);
             this.label2.TabIndex = 8;
@@ -297,14 +301,39 @@ namespace LibraryManagement.PresentationLayer
             this.txtName.Location = new System.Drawing.Point(649, 65);
             this.txtName.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(252, 48);
+            this.txtName.Size = new System.Drawing.Size(252, 59);
             this.txtName.TabIndex = 0;
             this.txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtName_KeyPress);
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.label8.Location = new System.Drawing.Point(645, 35);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(99, 24);
+            this.label8.TabIndex = 8;
+            this.label8.Text = "Họ và tên";
+            // 
+            // chkActive
+            // 
+            this.chkActive.AutoSize = true;
+            this.chkActive.BackColor = System.Drawing.Color.Transparent;
+            this.chkActive.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.chkActive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.chkActive.Location = new System.Drawing.Point(649, 403);
+            this.chkActive.Name = "chkActive";
+            this.chkActive.Size = new System.Drawing.Size(116, 28);
+            this.chkActive.TabIndex = 13;
+            this.chkActive.Text = "Kích hoạt";
+            this.chkActive.UseVisualStyleBackColor = false;
+            // 
             // bunifuElipse1
             // 
-            this.bunifuElipse1.ElipseRadius = 20;
+            this.bunifuElipse1.ElipseRadius = 15;
             this.bunifuElipse1.TargetControl = this;
             // 
             // bunifuElipse2
@@ -314,22 +343,22 @@ namespace LibraryManagement.PresentationLayer
             // 
             // bunifuElipse3
             // 
-            this.bunifuElipse3.ElipseRadius = 30;
+            this.bunifuElipse3.ElipseRadius = 15;
             this.bunifuElipse3.TargetControl = this.txtName;
             // 
             // bunifuElipse4
             // 
-            this.bunifuElipse4.ElipseRadius = 30;
+            this.bunifuElipse4.ElipseRadius = 15;
             this.bunifuElipse4.TargetControl = this.txtUserName;
             // 
             // bunifuElipse5
             // 
-            this.bunifuElipse5.ElipseRadius = 30;
+            this.bunifuElipse5.ElipseRadius = 15;
             this.bunifuElipse5.TargetControl = this.txtPassword;
             // 
             // bunifuElipse6
             // 
-            this.bunifuElipse6.ElipseRadius = 10;
+            this.bunifuElipse6.ElipseRadius = 15;
             this.bunifuElipse6.TargetControl = this.comPerm;
             // 
             // timer1
@@ -381,9 +410,11 @@ namespace LibraryManagement.PresentationLayer
         public Bunifu.Framework.UI.BunifuMaterialTextbox txtUserName;
         private System.Windows.Forms.Label label2;
         public Bunifu.Framework.UI.BunifuMaterialTextbox txtName;
+        private System.Windows.Forms.Label label8;
         public System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.PictureBox pic_Cover;
         private System.Windows.Forms.Label lblTimer;
         public System.Windows.Forms.Label lblAddNewUser;
+        public System.Windows.Forms.CheckBox chkActive;
     }
 }

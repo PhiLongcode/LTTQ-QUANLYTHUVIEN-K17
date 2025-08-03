@@ -34,8 +34,8 @@ namespace LibraryManagement.PresentationLayer
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FRM_DELETED));
             this.lblDeleted = new System.Windows.Forms.Label();
             this.bunifuTransition1 = new BunifuAnimatorNS.BunifuTransition(this.components);
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,11 +46,11 @@ namespace LibraryManagement.PresentationLayer
             this.bunifuTransition1.SetDecoration(this.lblDeleted, BunifuAnimatorNS.DecorationType.None);
             this.lblDeleted.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDeleted.ForeColor = System.Drawing.Color.Maroon;
-            this.lblDeleted.Location = new System.Drawing.Point(338, 471);
+            this.lblDeleted.Location = new System.Drawing.Point(334, 327);
             this.lblDeleted.Name = "lblDeleted";
-            this.lblDeleted.Size = new System.Drawing.Size(274, 51);
+            this.lblDeleted.Size = new System.Drawing.Size(319, 54);
             this.lblDeleted.TabIndex = 7;
-            this.lblDeleted.Text = "Đã củaXóa thành công";
+            this.lblDeleted.Text = "Xóa thành công";
             this.lblDeleted.Visible = false;
             // 
             // bunifuTransition1
@@ -74,12 +74,6 @@ namespace LibraryManagement.PresentationLayer
             animation1.TransparencyCoeff = 0F;
             this.bunifuTransition1.DefaultAnimation = animation1;
             // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 3000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -92,9 +86,15 @@ namespace LibraryManagement.PresentationLayer
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 3000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // FRM_DELETED
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1003, 637);

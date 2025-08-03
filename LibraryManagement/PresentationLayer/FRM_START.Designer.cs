@@ -105,10 +105,10 @@ namespace LibraryManagement.PresentationLayer
             this.bunifuTransition1.SetDecoration(this.label2, BunifuAnimatorNS.DecorationType.None);
             this.label2.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label2.Location = new System.Drawing.Point(316, 307);
+            this.label2.Location = new System.Drawing.Point(277, 307);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label2.Size = new System.Drawing.Size(148, 35);
+            this.label2.Size = new System.Drawing.Size(220, 37);
             this.label2.TabIndex = 25;
             this.label2.Text = "Chào mừng bạn";
             // 
@@ -126,7 +126,7 @@ namespace LibraryManagement.PresentationLayer
             // 
             // FRM_START
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.BackgroundImage = global::LibraryManagement.Properties.Resources.frame;

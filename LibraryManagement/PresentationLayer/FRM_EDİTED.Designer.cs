@@ -46,9 +46,9 @@ namespace LibraryManagement.PresentationLayer
             this.bunifuTransition1.SetDecoration(this.lblEdited, BunifuAnimatorNS.DecorationType.None);
             this.lblEdited.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEdited.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(19)))), ((int)(((byte)(254)))));
-            this.lblEdited.Location = new System.Drawing.Point(318, 432);
+            this.lblEdited.Location = new System.Drawing.Point(268, 392);
             this.lblEdited.Name = "lblEdited";
-            this.lblEdited.Size = new System.Drawing.Size(288, 51);
+            this.lblEdited.Size = new System.Drawing.Size(389, 54);
             this.lblEdited.TabIndex = 3;
             this.lblEdited.Text = "Sửa đổi thành công";
             this.lblEdited.Visible = false;
@@ -95,7 +95,7 @@ namespace LibraryManagement.PresentationLayer
             // 
             // FRM_EDİTED
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(925, 556);

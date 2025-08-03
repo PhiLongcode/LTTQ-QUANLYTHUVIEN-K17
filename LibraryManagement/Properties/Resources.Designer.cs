@@ -19,7 +19,7 @@ namespace LibraryManagement.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -253,9 +253,9 @@ namespace LibraryManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap user_filled_40px {
+        internal static System.Drawing.Bitmap time {
             get {
-                object obj = ResourceManager.GetObject("user_filled_40px", resourceCulture);
+                object obj = ResourceManager.GetObject("time", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +263,9 @@ namespace LibraryManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap لقطة_củaشاشة_2022_07_09_141638 {
+        internal static System.Drawing.Bitmap user_filled_40px {
             get {
-                object obj = ResourceManager.GetObject("لقطة củaشاشة 2022-07-09 141638", resourceCulture);
+                object obj = ResourceManager.GetObject("user_filled_40px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

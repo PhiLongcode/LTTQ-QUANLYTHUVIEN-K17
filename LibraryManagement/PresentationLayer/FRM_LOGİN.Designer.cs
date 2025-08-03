@@ -72,9 +72,9 @@ namespace LibraryManagement.PresentationLayer
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label8.Location = new System.Drawing.Point(616, 60);
+            this.label8.Location = new System.Drawing.Point(471, 60);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(136, 25);
+            this.label8.Size = new System.Drawing.Size(144, 25);
             this.label8.TabIndex = 10;
             this.label8.Text = "Tên đăng nhập";
             // 
@@ -85,7 +85,7 @@ namespace LibraryManagement.PresentationLayer
             // 
             // bunifuElipse2
             // 
-            this.bunifuElipse2.ElipseRadius = 30;
+            this.bunifuElipse2.ElipseRadius = 15;
             this.bunifuElipse2.TargetControl = this.txtUserName;
             // 
             // label1
@@ -94,9 +94,9 @@ namespace LibraryManagement.PresentationLayer
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label1.Location = new System.Drawing.Point(647, 147);
+            this.label1.Location = new System.Drawing.Point(483, 141);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 25);
+            this.label1.Size = new System.Drawing.Size(96, 25);
             this.label1.TabIndex = 10;
             this.label1.Text = "Mật khẩu";
             // 
@@ -123,7 +123,7 @@ namespace LibraryManagement.PresentationLayer
             // 
             // bunifuElipse3
             // 
-            this.bunifuElipse3.ElipseRadius = 30;
+            this.bunifuElipse3.ElipseRadius = 13;
             this.bunifuElipse3.TargetControl = this.txtPassword;
             // 
             // btnLogin
@@ -161,7 +161,7 @@ namespace LibraryManagement.PresentationLayer
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label2.Location = new System.Drawing.Point(359, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(146, 28);
+            this.label2.Size = new System.Drawing.Size(126, 30);
             this.label2.TabIndex = 10;
             this.label2.Text = "Đăng nhập";
             // 
@@ -187,11 +187,11 @@ namespace LibraryManagement.PresentationLayer
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold);
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label4.Location = new System.Drawing.Point(40, 180);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(418, 51);
+            this.label4.Size = new System.Drawing.Size(268, 28);
             this.label4.TabIndex = 15;
             this.label4.Text = "Hệ thống Quản lý Thư viện";
             // 
@@ -203,7 +203,7 @@ namespace LibraryManagement.PresentationLayer
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label5.Location = new System.Drawing.Point(38, 222);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(422, 51);
+            this.label5.Size = new System.Drawing.Size(380, 54);
             this.label5.TabIndex = 16;
             this.label5.Text = "─────────────────";
             // 
@@ -213,15 +213,15 @@ namespace LibraryManagement.PresentationLayer
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label3.Location = new System.Drawing.Point(142, 129);
+            this.label3.Location = new System.Drawing.Point(36, 118);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(214, 51);
+            this.label3.Size = new System.Drawing.Size(324, 54);
             this.label3.TabIndex = 17;
             this.label3.Text = "Chào mừng bạn";
             // 
             // FRM_LOGİN
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 27F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::LibraryManagement.Properties.Resources._null;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -244,6 +244,7 @@ namespace LibraryManagement.PresentationLayer
             this.Opacity = 0.95D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FRM_LOGİN";
+            this.Load += new System.EventHandler(this.FRM_LOGİN_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -67,7 +67,7 @@ namespace LibraryManagement.PresentationLayer
             this.bunifuTransition1.SetDecoration(this.lblAdd, BunifuAnimatorNS.DecorationType.None);
             this.lblAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(19)))), ((int)(((byte)(254)))));
-            this.lblAdd.Location = new System.Drawing.Point(337, 452);
+            this.lblAdd.Location = new System.Drawing.Point(295, 258);
             this.lblAdd.Name = "lblAdd";
             this.lblAdd.Size = new System.Drawing.Size(345, 46);
             this.lblAdd.TabIndex = 5;

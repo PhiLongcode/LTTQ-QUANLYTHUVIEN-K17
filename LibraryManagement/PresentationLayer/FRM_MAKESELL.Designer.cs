@@ -66,7 +66,7 @@ namespace LibraryManagement.PresentationLayer
             // 
             // bunifuElipse1
             // 
-            this.bunifuElipse1.ElipseRadius = 90;
+            this.bunifuElipse1.ElipseRadius = 10;
             this.bunifuElipse1.TargetControl = this;
             // 
             // guna2GradientPanel1
@@ -283,9 +283,9 @@ namespace LibraryManagement.PresentationLayer
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.label7.Location = new System.Drawing.Point(389, 43);
+            this.label7.Location = new System.Drawing.Point(347, 43);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(62, 25);
+            this.label7.Size = new System.Drawing.Size(116, 25);
             this.label7.TabIndex = 0;
             this.label7.Text = "Ngày tháng";
             // 
@@ -297,7 +297,7 @@ namespace LibraryManagement.PresentationLayer
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label8.Location = new System.Drawing.Point(829, 43);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(61, 25);
+            this.label8.Size = new System.Drawing.Size(41, 25);
             this.label8.TabIndex = 0;
             this.label8.Text = "Giá";
             // 
@@ -309,7 +309,7 @@ namespace LibraryManagement.PresentationLayer
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label1.Location = new System.Drawing.Point(203, 60);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 25);
+            this.label1.Size = new System.Drawing.Size(162, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Chọn người mua";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -334,7 +334,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnAdd.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnAdd.BackColor = System.Drawing.Color.Transparent;
             this.btnAdd.BorderColor = System.Drawing.Color.Transparent;
-            this.btnAdd.BorderRadius = 25;
+            this.btnAdd.BorderRadius = 15;
             this.btnAdd.BorderStyle = System.Drawing.Drawing2D.DashStyle.DashDotDot;
             this.btnAdd.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnAdd.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -352,28 +352,27 @@ namespace LibraryManagement.PresentationLayer
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(335, 53);
             this.btnAdd.TabIndex = 4;
-            this.btnAdd.Text = "";
             this.btnAdd.Tile = true;
             this.btnAdd.Click += new System.EventHandler(this.btnBookAdd_Click);
             // 
             // bunifuElipse2
             // 
-            this.bunifuElipse2.ElipseRadius = 30;
+            this.bunifuElipse2.ElipseRadius = 15;
             this.bunifuElipse2.TargetControl = this.txtPrice;
             // 
             // bunifuElipse3
             // 
-            this.bunifuElipse3.ElipseRadius = 30;
+            this.bunifuElipse3.ElipseRadius = 15;
             this.bunifuElipse3.TargetControl = this;
             // 
             // bunifuElipse4
             // 
-            this.bunifuElipse4.ElipseRadius = 30;
+            this.bunifuElipse4.ElipseRadius = 15;
             this.bunifuElipse4.TargetControl = this;
             // 
             // FRM_MAKESELL
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(946, 587);
             this.Controls.Add(this.guna2GradientPanel1);

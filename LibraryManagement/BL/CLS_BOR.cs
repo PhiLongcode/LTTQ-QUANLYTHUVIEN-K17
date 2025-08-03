@@ -80,5 +80,34 @@ namespace LibraryManagement.BL
             dt = DAL.read("P_BORSEARCH", pr);
             return dt;
         }
+
+        //Load borrowed books for specific user
+        public DataTable LoadForUser(int userID)
+        {
+            SqlParameter[] pr = new SqlParameter[1];
+            pr[0] = new SqlParameter("USERID", userID);
+            DataTable dt = new DataTable();
+            dt = DAL.read("PR_LOADBORFORUSER", pr);
+            return dt;
+        }
+
+        //Load borrowed books with status for all users (admin view)
+        public DataTable LoadWithStatus()
+        {
+            SqlParameter[] pr = null;
+            DataTable dt = new DataTable();
+            dt = DAL.read("PR_LOADBORWITHSTATUS", pr);
+            return dt;
+        }
+
+        //Load borrowed books with status for specific user
+        public DataTable LoadForUserWithStatus(int userID)
+        {
+            SqlParameter[] pr = new SqlParameter[1];
+            pr[0] = new SqlParameter("USERID", userID);
+            DataTable dt = new DataTable();
+            dt = DAL.read("PR_LOADBORFORUSERWITHSTATUS", pr);
+            return dt;
+        }
     }
 }

@@ -15,11 +15,14 @@ namespace LibraryManagement.PresentationLayer
         public FRM_DETAİLSST()
         {
             InitializeComponent();
+            // Ensure form has a solid background to avoid transparency issues
+            this.BackColor = System.Drawing.Color.Black;
         }
 
         private void FRM_DETAİLSBOOKS_Load(object sender, EventArgs e)
         {
-            bunifuTransition1.ShowSync(guna2GradientPanel2);
+            // Form will display normally without any transition issues
+            // All controls are properly initialized in Designer
         }
 
         private void btnClose_Click(object sender, EventArgs e)

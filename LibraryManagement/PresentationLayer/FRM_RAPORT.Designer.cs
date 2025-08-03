@@ -99,38 +99,38 @@ namespace LibraryManagement.PresentationLayer
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("LBC", 25F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(281, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(230, 43);
             this.label1.TabIndex = 9;
-            this.label1.Text = "معلومات عامه";
+            this.label1.Text = "Thông tin chung";
             // 
             // lblDate
             // 
             this.lblDate.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblDate.BackColor = System.Drawing.Color.Transparent;
-            this.lblDate.Font = new System.Drawing.Font("LBC", 18F, System.Drawing.FontStyle.Bold);
+            this.lblDate.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.lblDate.ForeColor = System.Drawing.Color.White;
             this.lblDate.Location = new System.Drawing.Point(36, 211);
             this.lblDate.Name = "lblDate";
             this.lblDate.Size = new System.Drawing.Size(363, 35);
             this.lblDate.TabIndex = 9;
-            this.lblDate.Text = "التاريخ";
+            this.lblDate.Text = "Ngày tháng";
             this.lblDate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblPrem
             // 
             this.lblPrem.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblPrem.BackColor = System.Drawing.Color.Transparent;
-            this.lblPrem.Font = new System.Drawing.Font("LBC", 18F, System.Drawing.FontStyle.Bold);
+            this.lblPrem.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.lblPrem.ForeColor = System.Drawing.Color.White;
             this.lblPrem.Location = new System.Drawing.Point(36, 157);
             this.lblPrem.Name = "lblPrem";
             this.lblPrem.Size = new System.Drawing.Size(363, 35);
             this.lblPrem.TabIndex = 9;
-            this.lblPrem.Text = "الصلاحيه";
+            this.lblPrem.Text = "Quyền hạn";
             this.lblPrem.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label10
@@ -138,25 +138,25 @@ namespace LibraryManagement.PresentationLayer
             this.label10.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("LBC", 18F, System.Drawing.FontStyle.Bold);
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(613, 211);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(77, 31);
             this.label10.TabIndex = 9;
-            this.label10.Text = "التاريخ";
+            this.label10.Text = "Ngày tháng";
             // 
             // lblName
             // 
             this.lblName.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblName.BackColor = System.Drawing.Color.Transparent;
-            this.lblName.Font = new System.Drawing.Font("LBC", 18F, System.Drawing.FontStyle.Bold);
+            this.lblName.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.lblName.ForeColor = System.Drawing.Color.White;
             this.lblName.Location = new System.Drawing.Point(36, 106);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(363, 35);
             this.lblName.TabIndex = 9;
-            this.lblName.Text = "اسم مقدم التقرير";
+            this.lblName.Text = "Tên người báo cáo";
             this.lblName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label6
@@ -164,39 +164,39 @@ namespace LibraryManagement.PresentationLayer
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("LBC", 18F, System.Drawing.FontStyle.Bold);
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(588, 157);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(102, 31);
             this.label6.TabIndex = 9;
-            this.label6.Text = "الصلاحيه";
+            this.label6.Text = "Quyền hạn";
             // 
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("LBC", 18F, System.Drawing.FontStyle.Bold);
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(495, 106);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(195, 31);
             this.label3.TabIndex = 9;
-            this.label3.Text = "اسم مقدم التقرير";
+            this.label3.Text = "Tên người báo cáo";
             // 
             // lblAddNewUser
             // 
             this.lblAddNewUser.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblAddNewUser.AutoSize = true;
             this.lblAddNewUser.BackColor = System.Drawing.Color.Transparent;
-            this.lblAddNewUser.Font = new System.Drawing.Font("LBC", 20F, System.Drawing.FontStyle.Bold);
+            this.lblAddNewUser.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.lblAddNewUser.ForeColor = System.Drawing.Color.White;
             this.lblAddNewUser.Location = new System.Drawing.Point(312, 319);
             this.lblAddNewUser.Name = "lblAddNewUser";
             this.lblAddNewUser.Size = new System.Drawing.Size(168, 35);
             this.lblAddNewUser.TabIndex = 9;
-            this.lblAddNewUser.Text = "ملخص التقرير";
+            this.lblAddNewUser.Text = "Tóm tắt báo cáo";
             // 
             // guna2CustomGradientPanel6
             // 
@@ -218,7 +218,7 @@ namespace LibraryManagement.PresentationLayer
             // 
             this.lblUsers.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblUsers.BackColor = System.Drawing.Color.Transparent;
-            this.lblUsers.Font = new System.Drawing.Font("LBC", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsers.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsers.ForeColor = System.Drawing.Color.White;
             this.lblUsers.Location = new System.Drawing.Point(0, 113);
             this.lblUsers.Name = "lblUsers";
@@ -232,13 +232,13 @@ namespace LibraryManagement.PresentationLayer
             this.label13.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("LBC", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
             this.label13.Location = new System.Drawing.Point(36, 26);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(159, 35);
             this.label13.TabIndex = 0;
-            this.label13.Text = "المستخدمين";
+            this.label13.Text = "Người dùng";
             // 
             // guna2CustomGradientPanel3
             // 
@@ -260,7 +260,7 @@ namespace LibraryManagement.PresentationLayer
             // 
             this.lblSell.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblSell.BackColor = System.Drawing.Color.Transparent;
-            this.lblSell.Font = new System.Drawing.Font("LBC", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSell.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSell.ForeColor = System.Drawing.Color.White;
             this.lblSell.Location = new System.Drawing.Point(0, 113);
             this.lblSell.Name = "lblSell";
@@ -274,13 +274,13 @@ namespace LibraryManagement.PresentationLayer
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("LBC", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(28, 26);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(172, 35);
             this.label7.TabIndex = 0;
-            this.label7.Text = "عدد المبيعات";
+            this.label7.Text = "Số lượng bán";
             // 
             // guna2CustomGradientPanel5
             // 
@@ -302,7 +302,7 @@ namespace LibraryManagement.PresentationLayer
             // 
             this.lblCategory.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblCategory.BackColor = System.Drawing.Color.Transparent;
-            this.lblCategory.Font = new System.Drawing.Font("LBC", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCategory.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCategory.ForeColor = System.Drawing.Color.White;
             this.lblCategory.Location = new System.Drawing.Point(0, 113);
             this.lblCategory.Name = "lblCategory";
@@ -316,13 +316,13 @@ namespace LibraryManagement.PresentationLayer
             this.label11.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("LBC", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(70, 26);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(104, 35);
             this.label11.TabIndex = 0;
-            this.label11.Text = "الاصناف";
+            this.label11.Text = "Danh mục";
             // 
             // guna2CustomGradientPanel2
             // 
@@ -344,7 +344,7 @@ namespace LibraryManagement.PresentationLayer
             // 
             this.lblStudent.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblStudent.BackColor = System.Drawing.Color.Transparent;
-            this.lblStudent.Font = new System.Drawing.Font("LBC", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStudent.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudent.ForeColor = System.Drawing.Color.White;
             this.lblStudent.Location = new System.Drawing.Point(0, 113);
             this.lblStudent.Name = "lblStudent";
@@ -358,13 +358,13 @@ namespace LibraryManagement.PresentationLayer
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("LBC", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(40, 26);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(151, 35);
             this.label5.TabIndex = 0;
-            this.label5.Text = "عدد الطلاب";
+            this.label5.Text = "Số lượng sinh viên";
             // 
             // guna2CustomGradientPanel4
             // 
@@ -386,7 +386,7 @@ namespace LibraryManagement.PresentationLayer
             // 
             this.lblBorrow.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblBorrow.BackColor = System.Drawing.Color.Transparent;
-            this.lblBorrow.Font = new System.Drawing.Font("LBC", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBorrow.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBorrow.ForeColor = System.Drawing.Color.White;
             this.lblBorrow.Location = new System.Drawing.Point(3, 113);
             this.lblBorrow.Name = "lblBorrow";
@@ -400,13 +400,13 @@ namespace LibraryManagement.PresentationLayer
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("LBC", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(60, 26);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(119, 35);
             this.label9.TabIndex = 0;
-            this.label9.Text = "الاستعارة";
+            this.label9.Text = "Sách mượn";
             // 
             // guna2CustomGradientPanel1
             // 
@@ -429,7 +429,7 @@ namespace LibraryManagement.PresentationLayer
             // 
             this.lblBook.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblBook.BackColor = System.Drawing.Color.Transparent;
-            this.lblBook.Font = new System.Drawing.Font("LBC", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBook.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBook.ForeColor = System.Drawing.Color.White;
             this.lblBook.Location = new System.Drawing.Point(0, 113);
             this.lblBook.Name = "lblBook";
@@ -443,13 +443,13 @@ namespace LibraryManagement.PresentationLayer
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("LBC", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(48, 26);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(139, 35);
             this.label2.TabIndex = 0;
-            this.label2.Text = "عدد الكتب";
+            this.label2.Text = "Số lượng sách";
             // 
             // btnPrintReport
             // 
@@ -466,7 +466,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnPrintReport.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnPrintReport.FillColor = System.Drawing.Color.Purple;
             this.btnPrintReport.FillColor2 = System.Drawing.Color.Black;
-            this.btnPrintReport.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnPrintReport.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnPrintReport.ForeColor = System.Drawing.Color.White;
             this.btnPrintReport.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnPrintReport.ImageOffset = new System.Drawing.Point(0, 20);
@@ -475,7 +475,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnPrintReport.Name = "btnPrintReport";
             this.btnPrintReport.Size = new System.Drawing.Size(264, 45);
             this.btnPrintReport.TabIndex = 4;
-            this.btnPrintReport.Text = "طباعه التقرير";
+            this.btnPrintReport.Text = "In báo cáo";
             this.btnPrintReport.Tile = true;
             this.btnPrintReport.Click += new System.EventHandler(this.btnPrintReport_Click);
             // 
@@ -496,7 +496,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnPrintView.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnPrintView.FillColor = System.Drawing.Color.Purple;
             this.btnPrintView.FillColor2 = System.Drawing.Color.Black;
-            this.btnPrintView.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnPrintView.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnPrintView.ForeColor = System.Drawing.Color.White;
             this.btnPrintView.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnPrintView.ImageOffset = new System.Drawing.Point(0, 20);
@@ -505,7 +505,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnPrintView.Name = "btnPrintView";
             this.btnPrintView.Size = new System.Drawing.Size(264, 45);
             this.btnPrintView.TabIndex = 5;
-            this.btnPrintView.Text = "مشاهده الطباعه";
+            this.btnPrintView.Text = "Xem trước in";
             this.btnPrintView.Tile = true;
             this.btnPrintView.Click += new System.EventHandler(this.btnPrintView_Click);
             // 
@@ -524,7 +524,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnPrintSettings.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnPrintSettings.FillColor = System.Drawing.Color.Purple;
             this.btnPrintSettings.FillColor2 = System.Drawing.Color.Black;
-            this.btnPrintSettings.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnPrintSettings.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnPrintSettings.ForeColor = System.Drawing.Color.White;
             this.btnPrintSettings.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnPrintSettings.ImageOffset = new System.Drawing.Point(0, 20);
@@ -533,7 +533,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnPrintSettings.Name = "btnPrintSettings";
             this.btnPrintSettings.Size = new System.Drawing.Size(264, 45);
             this.btnPrintSettings.TabIndex = 7;
-            this.btnPrintSettings.Text = "اعدادات الطباعه";
+            this.btnPrintSettings.Text = "Cài đặt in";
             this.btnPrintSettings.Tile = true;
             this.btnPrintSettings.Click += new System.EventHandler(this.btnPrintSettings_Click);
             // 

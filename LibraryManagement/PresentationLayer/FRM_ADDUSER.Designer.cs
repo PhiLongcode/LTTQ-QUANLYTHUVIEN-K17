@@ -156,7 +156,7 @@ namespace LibraryManagement.PresentationLayer
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::LibraryManagement.Properties.Resources.لقطة_الشاشة_2022_07_09_141638;
+            this.pictureBox1.Image = global::LibraryManagement.Properties.Resources.لقطة_củaشاشة_2022_07_09_141638;
             this.pictureBox1.Location = new System.Drawing.Point(469, 341);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(104, 94);

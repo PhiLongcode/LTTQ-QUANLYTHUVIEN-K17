@@ -1,0 +1,46 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio cache files
+*.cache
+*.pdb
+*.userprefs
+
+# Backup files from translation scripts
+*.backup
+*.complete_backup
+*.font_backup
+*.cs_backup
+*.fix_backup
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Database files
+*.mdf
+*.ldf
+
+# Other
+Thumbs.db
+ehthumbs.db
+Desktop.ini 

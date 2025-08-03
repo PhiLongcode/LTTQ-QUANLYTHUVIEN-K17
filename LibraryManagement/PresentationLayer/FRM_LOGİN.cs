@@ -44,7 +44,7 @@ namespace LibraryManagement.PresentationLayer
             }
             catch (Exception ex)
             {
-                MessageBox.Show("خطا في معلومات الستجيل");
+                MessageBox.Show("Lỗi thông tin đăng nhập");
                 MessageBox.Show(ex.Message);
             }
 

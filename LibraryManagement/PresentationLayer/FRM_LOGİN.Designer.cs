@@ -50,7 +50,7 @@ namespace LibraryManagement.PresentationLayer
             this.txtUserName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.txtUserName.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.txtUserName.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtUserName.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUserName.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUserName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtUserName.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtUserName.HintText = "";
@@ -70,13 +70,13 @@ namespace LibraryManagement.PresentationLayer
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label8.Location = new System.Drawing.Point(616, 60);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(136, 25);
             this.label8.TabIndex = 10;
-            this.label8.Text = "اسم المستخدم";
+            this.label8.Text = "Tên đăng nhập";
             // 
             // bunifuElipse1
             // 
@@ -92,20 +92,20 @@ namespace LibraryManagement.PresentationLayer
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label1.Location = new System.Drawing.Point(647, 147);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(105, 25);
             this.label1.TabIndex = 10;
-            this.label1.Text = "كلمة المرور";
+            this.label1.Text = "Mật khẩu";
             // 
             // txtPassword
             // 
             this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.txtPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtPassword.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtPassword.HintForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtPassword.HintText = "";
@@ -140,7 +140,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnLogin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.btnLogin.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.btnLogin.Font = new System.Drawing.Font("LBC", 14F, System.Drawing.FontStyle.Bold);
+            this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.btnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnLogin.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnLogin.ImageOffset = new System.Drawing.Point(0, 20);
@@ -149,7 +149,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(276, 48);
             this.btnLogin.TabIndex = 13;
-            this.btnLogin.Text = "تسجيل الدخول";
+            this.btnLogin.Text = "Đăng nhập";
             this.btnLogin.Tile = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
@@ -157,13 +157,13 @@ namespace LibraryManagement.PresentationLayer
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("LBC", 16F, System.Drawing.FontStyle.Bold);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label2.Location = new System.Drawing.Point(359, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(146, 28);
             this.label2.TabIndex = 10;
-            this.label2.Text = "تسجيل الدخول";
+            this.label2.Text = "Đăng nhập";
             // 
             // btnClose
             // 
@@ -187,37 +187,37 @@ namespace LibraryManagement.PresentationLayer
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("LBC", 30F, System.Drawing.FontStyle.Bold);
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label4.Location = new System.Drawing.Point(40, 180);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(418, 51);
             this.label4.TabIndex = 15;
-            this.label4.Text = "نظام المكتبة الإلكترونية";
+            this.label4.Text = "Hệ thống Quản lý Thư viện";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("LBC", 30F, System.Drawing.FontStyle.Bold);
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label5.Location = new System.Drawing.Point(38, 222);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(422, 51);
             this.label5.TabIndex = 16;
-            this.label5.Text = "ـــــــــــــــــــــــــ";
+            this.label5.Text = "─────────────────";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("LBC", 30F, System.Drawing.FontStyle.Bold);
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label3.Location = new System.Drawing.Point(142, 129);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(214, 51);
             this.label3.TabIndex = 17;
-            this.label3.Text = "أهلاً و سهلاً";
+            this.label3.Text = "Chào mừng bạn";
             // 
             // FRM_LOGİN
             // 
@@ -237,7 +237,7 @@ namespace LibraryManagement.PresentationLayer
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label8);
             this.DoubleBuffered = true;
-            this.Font = new System.Drawing.Font("LBC", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.Name = "FRM_LOGİN";

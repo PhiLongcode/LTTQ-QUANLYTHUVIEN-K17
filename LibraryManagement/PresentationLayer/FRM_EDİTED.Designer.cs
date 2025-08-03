@@ -44,13 +44,13 @@ namespace LibraryManagement.PresentationLayer
             this.lblEdited.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblEdited.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.lblEdited, BunifuAnimatorNS.DecorationType.None);
-            this.lblEdited.Font = new System.Drawing.Font("LBC", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEdited.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEdited.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(19)))), ((int)(((byte)(254)))));
             this.lblEdited.Location = new System.Drawing.Point(318, 432);
             this.lblEdited.Name = "lblEdited";
             this.lblEdited.Size = new System.Drawing.Size(288, 51);
             this.lblEdited.TabIndex = 3;
-            this.lblEdited.Text = "تم التعديل بنجاح";
+            this.lblEdited.Text = "Sửa đổi thành công";
             this.lblEdited.Visible = false;
             // 
             // bunifuTransition1
@@ -102,7 +102,7 @@ namespace LibraryManagement.PresentationLayer
             this.Controls.Add(this.lblEdited);
             this.Controls.Add(this.pictureBox1);
             this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
-            this.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FRM_EDİTED";

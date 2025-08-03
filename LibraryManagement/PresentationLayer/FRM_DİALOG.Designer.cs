@@ -45,14 +45,14 @@ namespace LibraryManagement.PresentationLayer
             // lblDialog
             // 
             this.lblDialog.BackColor = System.Drawing.Color.Transparent;
-            this.lblDialog.Font = new System.Drawing.Font("LBC", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDialog.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDialog.ForeColor = System.Drawing.Color.White;
             this.lblDialog.Location = new System.Drawing.Point(49, 12);
             this.lblDialog.Name = "lblDialog";
             this.lblDialog.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.lblDialog.Size = new System.Drawing.Size(420, 36);
             this.lblDialog.TabIndex = 4;
-            this.lblDialog.Text = "يجب ان تكون كلمه المرور اكبر من 8 احرف";
+            this.lblDialog.Text = "Mật khẩu phải có ít nhất 8 ký tự";
             this.lblDialog.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox1
@@ -132,7 +132,7 @@ namespace LibraryManagement.PresentationLayer
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(16)))), ((int)(((byte)(221)))));
             this.ClientSize = new System.Drawing.Size(469, 62);
             this.Controls.Add(this.guna2GradientPanel2);
-            this.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FRM_DİALOG";

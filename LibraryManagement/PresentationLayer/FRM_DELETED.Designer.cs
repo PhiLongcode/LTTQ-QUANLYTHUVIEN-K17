@@ -44,13 +44,13 @@ namespace LibraryManagement.PresentationLayer
             this.lblDeleted.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblDeleted.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.lblDeleted, BunifuAnimatorNS.DecorationType.None);
-            this.lblDeleted.Font = new System.Drawing.Font("LBC", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDeleted.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDeleted.ForeColor = System.Drawing.Color.Maroon;
             this.lblDeleted.Location = new System.Drawing.Point(338, 471);
             this.lblDeleted.Name = "lblDeleted";
             this.lblDeleted.Size = new System.Drawing.Size(274, 51);
             this.lblDeleted.TabIndex = 7;
-            this.lblDeleted.Text = "تم الحذف بنجاح";
+            this.lblDeleted.Text = "Đã củaXóa thành công";
             this.lblDeleted.Visible = false;
             // 
             // bunifuTransition1
@@ -101,7 +101,7 @@ namespace LibraryManagement.PresentationLayer
             this.Controls.Add(this.lblDeleted);
             this.Controls.Add(this.pictureBox1);
             this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
-            this.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Name = "FRM_DELETED";

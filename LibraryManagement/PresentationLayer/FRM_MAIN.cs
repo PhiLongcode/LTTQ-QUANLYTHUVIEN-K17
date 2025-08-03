@@ -136,15 +136,15 @@ namespace LibraryManagement.PresentationLayer
             P_HOME.Visible = false;
             P_MAIN.Visible = true;
             State = "CAT";
-            lbTitle.Text = "الاصناف";
+            lbTitle.Text = "Danh mục";
             //Load data
             try
             {
                 DataTable dt = new DataTable();
                 dt = BLCAT.Load();
                 dataGridView1.DataSource = dt;
-                dataGridView1.Columns[0].HeaderText = "التسلسل";
-                dataGridView1.Columns[1].HeaderText = "اسم الصنف";
+                dataGridView1.Columns[0].HeaderText = "STT";
+                dataGridView1.Columns[1].HeaderText = "Tên danh mục";
             }
             catch (Exception ex)
             {
@@ -157,7 +157,7 @@ namespace LibraryManagement.PresentationLayer
         {
             P_HOME.Visible = true;
             P_MAIN.Visible = false;
-            lbTitle.Text = "الرئيسية";
+            lbTitle.Text = "Trang chủ";
             if (lblPrem.Text == "مدير")
             {
                 btnAdd.Location = new Point(656, 6);
@@ -178,7 +178,7 @@ namespace LibraryManagement.PresentationLayer
             if (State == "CAT")
             {
                 PresentationLayer.FRM_ADDCAT Fcat = new FRM_ADDCAT();
-                Fcat.btnCatAdd.Text = "اضافه";
+                Fcat.btnCatAdd.Text = "Thêm";
                 Fcat.ID = 0;
                 bunifuTransition1.ShowSync(Fcat);
             }
@@ -186,7 +186,7 @@ namespace LibraryManagement.PresentationLayer
             if (State == "BOOKS")
             {
                 PresentationLayer.FRM_ADDBOOKS Fbooks = new FRM_ADDBOOKS();
-                Fbooks.btnBookAdd.Text = "اضافه";
+                Fbooks.btnBookAdd.Text = "Thêm";
                 Fbooks.ID = 0;
                 bunifuTransition1.ShowSync(Fbooks);
             }
@@ -194,7 +194,7 @@ namespace LibraryManagement.PresentationLayer
             if (State == "ST")
             {
                 PresentationLayer.FRM_ADDSTUDENT FSTUDENT = new FRM_ADDSTUDENT();
-                FSTUDENT.btnAdd.Text = "اضافه";
+                FSTUDENT.btnAdd.Text = "Thêm";
                 FSTUDENT.ID = 0;
                 bunifuTransition1.ShowSync(FSTUDENT);
             }
@@ -202,7 +202,7 @@ namespace LibraryManagement.PresentationLayer
             if (State == "SELL")
             {
                 PresentationLayer.FRM_MAKESELL FSELL = new FRM_MAKESELL();
-                FSELL.btnAdd.Text = "اضافه";
+                FSELL.btnAdd.Text = "Thêm";
                 FSELL.ID = 0;
                 bunifuTransition1.ShowSync(FSELL);
             }
@@ -210,7 +210,7 @@ namespace LibraryManagement.PresentationLayer
             if (State == "BOR")
             {
                 PresentationLayer.FRM_BOR FBOR = new FRM_BOR();
-                FBOR.btnAdd.Text = "اضافه";
+                FBOR.btnAdd.Text = "Thêm";
                 FBOR.ID = 0;
                 bunifuTransition1.ShowSync(FBOR);
             }
@@ -218,7 +218,7 @@ namespace LibraryManagement.PresentationLayer
             if (State == "USERS")
             {
                 PresentationLayer.FRM_ADDUSER ADDUSER = new FRM_ADDUSER();
-                ADDUSER.btnAdd.Text = "اضافه";
+                ADDUSER.btnAdd.Text = "Thêm";
                 ADDUSER.ID = 0;
                 bunifuTransition1.ShowSync(ADDUSER);
             }
@@ -326,8 +326,8 @@ namespace LibraryManagement.PresentationLayer
                     DataTable dt = new DataTable();
                     dt = BLCAT.Load();
                     dataGridView1.DataSource = dt;
-                    dataGridView1.Columns[0].HeaderText = "التسلسل";
-                    dataGridView1.Columns[1].HeaderText = "اسم الصنف";
+                    dataGridView1.Columns[0].HeaderText = "STT";
+                    dataGridView1.Columns[1].HeaderText = "Tên danh mục";
                 }
                 catch (Exception ex)
                 {
@@ -342,11 +342,11 @@ namespace LibraryManagement.PresentationLayer
                     DataTable dt = new DataTable();
                     dt = BLBOOKS.Load();
                     dataGridView1.DataSource = dt;
-                    dataGridView1.Columns[0].HeaderText = "الرقم التسلسلي";
-                    dataGridView1.Columns[1].HeaderText = "اسم الكتاب";
-                    dataGridView1.Columns[2].HeaderText = "المؤلف";
-                    dataGridView1.Columns[3].HeaderText = "التصنيف";
-                    dataGridView1.Columns[4].HeaderText = "السعر";
+                    dataGridView1.Columns[0].HeaderText = "STT";
+                    dataGridView1.Columns[1].HeaderText = "Tên sách";
+                    dataGridView1.Columns[2].HeaderText = "Tác giả";
+                    dataGridView1.Columns[3].HeaderText = "Phân loại";
+                    dataGridView1.Columns[4].HeaderText = "Giá";
                 }
                 catch (Exception ex)
                 {
@@ -358,18 +358,18 @@ namespace LibraryManagement.PresentationLayer
                 P_HOME.Visible = false;
                 P_MAIN.Visible = true;
                 State = "ST";
-                lbTitle.Text = "الطلاب";
+                lbTitle.Text = "Sinh viên";
                 //Load data
                 try
                 {
                     DataTable dt = new DataTable();
                     dt = BLST.Load();
                     dataGridView1.DataSource = dt;
-                    dataGridView1.Columns[0].HeaderText = "التسلسل";
-                    dataGridView1.Columns[1].HeaderText = "اسم الطالب";
-                    dataGridView1.Columns[2].HeaderText = "السكن";
-                    dataGridView1.Columns[3].HeaderText = "الهاتف";
-                    dataGridView1.Columns[4].HeaderText = "ايميل";
+                    dataGridView1.Columns[0].HeaderText = "STT";
+                    dataGridView1.Columns[1].HeaderText = "Tên sinh viên";
+                    dataGridView1.Columns[2].HeaderText = "Địa chỉ";
+                    dataGridView1.Columns[3].HeaderText = "Số điện thoại";
+                    dataGridView1.Columns[4].HeaderText = "Email";
                 }
                 catch (Exception ex)
                 {
@@ -381,18 +381,18 @@ namespace LibraryManagement.PresentationLayer
                 P_HOME.Visible = false;
                 P_MAIN.Visible = true;
                 State = "SELL";
-                lbTitle.Text = "البيع";
+                lbTitle.Text = "Bán sách";
                 //Load data
                 try
                 {
                     DataTable dt = new DataTable();
                     dt = BLSELL.Load();
                     dataGridView1.DataSource = dt;
-                    dataGridView1.Columns[0].HeaderText = "الرقم التسلسلي";
-                    dataGridView1.Columns[1].HeaderText = "اسم المشتري";
-                    dataGridView1.Columns[2].HeaderText = "اسم الكتاب";
-                    dataGridView1.Columns[3].HeaderText = "السعر";
-                    dataGridView1.Columns[4].HeaderText = "التاريخ";
+                    dataGridView1.Columns[0].HeaderText = "STT";
+                    dataGridView1.Columns[1].HeaderText = "Tên người mua";
+                    dataGridView1.Columns[2].HeaderText = "Tên sách";
+                    dataGridView1.Columns[3].HeaderText = "Giá";
+                    dataGridView1.Columns[4].HeaderText = "Ngày tháng";
                 }
                 catch (Exception ex)
                 {
@@ -404,19 +404,19 @@ namespace LibraryManagement.PresentationLayer
                 P_HOME.Visible = false;
                 P_MAIN.Visible = true;
                 State = "BOR";
-                lbTitle.Text = "الاستعاره";
+                lbTitle.Text = "Mượn sách";
                 //Load data
                 try
                 {
                     DataTable dt = new DataTable();
                     dt = BLBOR.Load();
                     dataGridView1.DataSource = dt;
-                    dataGridView1.Columns[0].HeaderText = "الرقم التسلسلي";
-                    dataGridView1.Columns[1].HeaderText = "اسم المستعير";
-                    dataGridView1.Columns[2].HeaderText = "اسم الكتاب";
-                    dataGridView1.Columns[3].HeaderText = "تاريخ الاستعاره";
-                    dataGridView1.Columns[4].HeaderText = "تاريخ الارجاع";
-                    dataGridView1.Columns[5].HeaderText = "السعر";
+                    dataGridView1.Columns[0].HeaderText = "STT";
+                    dataGridView1.Columns[1].HeaderText = "Tên người mượn";
+                    dataGridView1.Columns[2].HeaderText = "Tên sách";
+                    dataGridView1.Columns[3].HeaderText = "Ngày mượn";
+                    dataGridView1.Columns[4].HeaderText = "Ngày trả";
+                    dataGridView1.Columns[5].HeaderText = "Giá";
                 }
                 catch (Exception ex)
                 {
@@ -428,18 +428,18 @@ namespace LibraryManagement.PresentationLayer
                 P_HOME.Visible = false;
                 P_MAIN.Visible = true;
                 State = "USERS";
-                lbTitle.Text = "المستخدمين";
+                lbTitle.Text = "Người dùng";
                 //Load data
                 try
                 {
                     DataTable dt = new DataTable();
                     dt = BLUSERS.Load();
                     dataGridView1.DataSource = dt;
-                    dataGridView1.Columns[0].HeaderText = "الرقم التسلسلي";
-                    dataGridView1.Columns[1].HeaderText = "الاسم الكامل";
-                    dataGridView1.Columns[2].HeaderText = "اسم المستخدم";
-                    dataGridView1.Columns[3].HeaderText = "كلمه السر";
-                    dataGridView1.Columns[4].HeaderText = "الصلاحيه";
+                    dataGridView1.Columns[0].HeaderText = "STT";
+                    dataGridView1.Columns[1].HeaderText = "Họ tên";
+                    dataGridView1.Columns[2].HeaderText = "Tên đăng nhập";
+                    dataGridView1.Columns[3].HeaderText = "Mật khẩu";
+                    dataGridView1.Columns[4].HeaderText = "Quyền hạn";
                 }
                 catch (Exception ex)
                 {
@@ -454,7 +454,7 @@ namespace LibraryManagement.PresentationLayer
             if (State == "CAT")
             {
                 PresentationLayer.FRM_ADDCAT Fcat = new FRM_ADDCAT();
-                Fcat.btnCatAdd.Text = "تعديل";
+                Fcat.btnCatAdd.Text = "Sửa";
                 Fcat.txt_catname.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
                 Fcat.ID = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
                 bunifuTransition1.ShowSync(Fcat);
@@ -466,7 +466,7 @@ namespace LibraryManagement.PresentationLayer
                 try
                 {
                     PresentationLayer.FRM_ADDBOOKS FBOOKS = new FRM_ADDBOOKS();
-                    FBOOKS.btnBookAdd.Text = "تعديل";
+                    FBOOKS.btnBookAdd.Text = "Sửa";
                     FBOOKS.ID = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
                     DataTable dt = new DataTable();
                     dt = BLBOOKS.LoadEdit(Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value));
@@ -500,7 +500,7 @@ namespace LibraryManagement.PresentationLayer
                 try
                 {
                     PresentationLayer.FRM_ADDSTUDENT FST = new FRM_ADDSTUDENT();
-                    FST.btnAdd.Text = "تعديل";
+                    FST.btnAdd.Text = "Sửa";
                     FST.ID = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
                     DataTable dt = new DataTable();
                     dt = BLST.LoadEdit(Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value));
@@ -536,7 +536,7 @@ namespace LibraryManagement.PresentationLayer
                 try
                 {
                     PresentationLayer.FRM_MAKESELL FSELL = new FRM_MAKESELL();
-                    FSELL.btnAdd.Text = "تعديل";
+                    FSELL.btnAdd.Text = "Sửa";
 
                     FSELL.ID = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
                     bunifuTransition1.ShowSync(FSELL);
@@ -552,7 +552,7 @@ namespace LibraryManagement.PresentationLayer
                 try
                 {
                     PresentationLayer.FRM_BOR FBOR = new FRM_BOR();
-                    FBOR.btnAdd.Text = "تعديل";
+                    FBOR.btnAdd.Text = "Sửa";
                     FBOR.ID = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
                     bunifuTransition1.ShowSync(FBOR);
                 }
@@ -567,9 +567,9 @@ namespace LibraryManagement.PresentationLayer
                 try
                 {
                     PresentationLayer.FRM_ADDUSER FUSER = new FRM_ADDUSER();
-                    FUSER.btnAdd.Text = "تعديل";
+                    FUSER.btnAdd.Text = "Sửa";
                     FUSER.ID = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
-                    FUSER.lblAddNewUser.Text = "تعديل مستخدم حالي";
+                    FUSER.lblAddNewUser.Text = "Sửa người dùng của";
 
                     DataTable dt = new DataTable();
                     dt = BLUSERS.LoadEdit(Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value));
@@ -598,7 +598,7 @@ namespace LibraryManagement.PresentationLayer
             {
                 var id = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
                 PresentationLayer.FRM_AREYOUSURE areyoursure = new FRM_AREYOUSURE();
-                areyoursure.lblAreYouSure.Text = "انت على وشك مسح الصنف";
+                areyoursure.lblAreYouSure.Text = "Bạn sắp xóa danh mục";
                 areyoursure.ShowDialog();
                 if (PresentationLayer.FRM_AREYOUSURE.YesNo)
                 {
@@ -615,7 +615,7 @@ namespace LibraryManagement.PresentationLayer
                 var id = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
 
                 PresentationLayer.FRM_AREYOUSURE areyoursure = new FRM_AREYOUSURE();
-                areyoursure.lblAreYouSure.Text = "انت على وشك مسح الكتاب";
+                areyoursure.lblAreYouSure.Text = "Bạn sắp xóa sách";
                 areyoursure.ShowDialog();
                 if (PresentationLayer.FRM_AREYOUSURE.YesNo)
                 {
@@ -630,7 +630,7 @@ namespace LibraryManagement.PresentationLayer
             {
                 var id = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
                 PresentationLayer.FRM_AREYOUSURE areyoursure = new FRM_AREYOUSURE();
-                areyoursure.lblAreYouSure.Text = "انت على وشك مسح الطالب";
+                areyoursure.lblAreYouSure.Text = "Bạn sắp xóa sinh viên";
                 areyoursure.ShowDialog();
                 if (PresentationLayer.FRM_AREYOUSURE.YesNo)
                 {
@@ -645,7 +645,7 @@ namespace LibraryManagement.PresentationLayer
             {
                 var id = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
                 PresentationLayer.FRM_AREYOUSURE areyoursure = new FRM_AREYOUSURE();
-                areyoursure.lblAreYouSure.Text = "انت على وشك مسح عمليه البيع";
+                areyoursure.lblAreYouSure.Text = "Bạn sắp xóa quá trình bán";
                 areyoursure.ShowDialog();
                 if (PresentationLayer.FRM_AREYOUSURE.YesNo)
                 {
@@ -660,7 +660,7 @@ namespace LibraryManagement.PresentationLayer
             {
                 var id = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
                 PresentationLayer.FRM_AREYOUSURE areyoursure = new FRM_AREYOUSURE();
-                areyoursure.lblAreYouSure.Text = "انت على وشك مسح عمليه استعاره";
+                areyoursure.lblAreYouSure.Text = "Bạn sắp xóa quá trình mượn";
                 areyoursure.ShowDialog();
                 if (PresentationLayer.FRM_AREYOUSURE.YesNo)
                 {
@@ -675,7 +675,7 @@ namespace LibraryManagement.PresentationLayer
             {
                 var id = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value);
                 PresentationLayer.FRM_AREYOUSURE areyoursure = new FRM_AREYOUSURE();
-                areyoursure.lblAreYouSure.Text = "انت على وشك مسح مستخدم";
+                areyoursure.lblAreYouSure.Text = "Bạn sắp xóa người dùng";
                 areyoursure.ShowDialog();
                 if (PresentationLayer.FRM_AREYOUSURE.YesNo)
                 {
@@ -731,18 +731,18 @@ namespace LibraryManagement.PresentationLayer
             P_HOME.Visible = false;
             P_MAIN.Visible = true;
             State = "BOOKS";
-            lbTitle.Text = "الكتب";
+            lbTitle.Text = "Sách";
             //Load data
             try
             {
                 DataTable dt = new DataTable();
                 dt = BLBOOKS.Load();
                 dataGridView1.DataSource = dt;
-                dataGridView1.Columns[0].HeaderText = "الرقم التسلسلي";
-                dataGridView1.Columns[1].HeaderText = "اسم الكتاب";
-                dataGridView1.Columns[2].HeaderText = "المؤلف";
-                dataGridView1.Columns[3].HeaderText = "التصنيف";
-                dataGridView1.Columns[4].HeaderText = "السعر";
+                dataGridView1.Columns[0].HeaderText = "STT";
+                dataGridView1.Columns[1].HeaderText = "Tên sách";
+                dataGridView1.Columns[2].HeaderText = "Tác giả";
+                dataGridView1.Columns[3].HeaderText = "Phân loại";
+                dataGridView1.Columns[4].HeaderText = "Giá";
             }
             catch (Exception ex)
             {
@@ -826,18 +826,18 @@ namespace LibraryManagement.PresentationLayer
             P_HOME.Visible = false;
             P_MAIN.Visible = true;
             State = "ST";
-            lbTitle.Text = "الطلاب";
+            lbTitle.Text = "Sinh viên";
             //Load data
             try
             {
                 DataTable dt = new DataTable();
                 dt = BLST.Load();
                 dataGridView1.DataSource = dt;
-                dataGridView1.Columns[0].HeaderText = "التسلسل";
-                dataGridView1.Columns[1].HeaderText = "اسم الطالب";
-                dataGridView1.Columns[2].HeaderText = "السكن";
-                dataGridView1.Columns[3].HeaderText = "الهاتف";
-                dataGridView1.Columns[4].HeaderText = "ايميل";
+                dataGridView1.Columns[0].HeaderText = "STT";
+                dataGridView1.Columns[1].HeaderText = "Tên sinh viên";
+                dataGridView1.Columns[2].HeaderText = "Địa chỉ";
+                dataGridView1.Columns[3].HeaderText = "Số điện thoại";
+                dataGridView1.Columns[4].HeaderText = "Email";
             }
             catch (Exception ex)
             {
@@ -850,18 +850,18 @@ namespace LibraryManagement.PresentationLayer
             P_HOME.Visible = false;
             P_MAIN.Visible = true;
             State = "SELL";
-            lbTitle.Text = "البيع";
+            lbTitle.Text = "Bán sách";
             //Load data
             try
             {
                 DataTable dt = new DataTable();
                 dt = BLSELL.Load();
                 dataGridView1.DataSource = dt;
-                dataGridView1.Columns[0].HeaderText = "الرقم التسلسلي";
-                dataGridView1.Columns[1].HeaderText = "اسم المشتري";
-                dataGridView1.Columns[2].HeaderText = "اسم الكتاب";
-                dataGridView1.Columns[3].HeaderText = "السعر";
-                dataGridView1.Columns[4].HeaderText = "التاريخ";
+                dataGridView1.Columns[0].HeaderText = "STT";
+                dataGridView1.Columns[1].HeaderText = "Tên người mua";
+                dataGridView1.Columns[2].HeaderText = "Tên sách";
+                dataGridView1.Columns[3].HeaderText = "Giá";
+                dataGridView1.Columns[4].HeaderText = "Ngày tháng";
             }
             catch (Exception ex)
             {
@@ -874,19 +874,19 @@ namespace LibraryManagement.PresentationLayer
             P_HOME.Visible = false;
             P_MAIN.Visible = true;
             State = "BOR";
-            lbTitle.Text = "الاستعاره";
+            lbTitle.Text = "Mượn sách";
             //Load data
             try
             {
                 DataTable dt = new DataTable();
                 dt = BLBOR.Load();
                 dataGridView1.DataSource = dt;
-                dataGridView1.Columns[0].HeaderText = "الرقم التسلسلي";
-                dataGridView1.Columns[1].HeaderText = "اسم المستعير";
-                dataGridView1.Columns[2].HeaderText = "اسم الكتاب";
-                dataGridView1.Columns[3].HeaderText = "تاريخ الاستعاره";
-                dataGridView1.Columns[4].HeaderText = "تاريخ الارجاع";
-                dataGridView1.Columns[5].HeaderText = "السعر";
+                dataGridView1.Columns[0].HeaderText = "STT";
+                dataGridView1.Columns[1].HeaderText = "Tên người mượn";
+                dataGridView1.Columns[2].HeaderText = "Tên sách";
+                dataGridView1.Columns[3].HeaderText = "Ngày mượn";
+                dataGridView1.Columns[4].HeaderText = "Ngày trả";
+                dataGridView1.Columns[5].HeaderText = "Giá";
             }
             catch (Exception ex)
             {
@@ -899,18 +899,18 @@ namespace LibraryManagement.PresentationLayer
             P_HOME.Visible = false;
             P_MAIN.Visible = true;
             State = "USERS";
-            lbTitle.Text = "المستخدمين";
+            lbTitle.Text = "Người dùng";
             //Load data
             try
             {
                 DataTable dt = new DataTable();
                 dt = BLUSERS.Load();
                 dataGridView1.DataSource = dt;
-                dataGridView1.Columns[0].HeaderText = "الرقم التسلسلي";
-                dataGridView1.Columns[1].HeaderText = "الاسم الكامل";
-                dataGridView1.Columns[2].HeaderText = "اسم المستخدم";
-                dataGridView1.Columns[3].HeaderText = "كلمه السر";
-                dataGridView1.Columns[4].HeaderText = "الصلاحيه";
+                dataGridView1.Columns[0].HeaderText = "STT";
+                dataGridView1.Columns[1].HeaderText = "Họ tên";
+                dataGridView1.Columns[2].HeaderText = "Tên đăng nhập";
+                dataGridView1.Columns[3].HeaderText = "Mật khẩu";
+                dataGridView1.Columns[4].HeaderText = "Quyền hạn";
             }
             catch (Exception ex)
             {
@@ -931,7 +931,7 @@ namespace LibraryManagement.PresentationLayer
         {
             P_HOME.Visible = true;
             P_MAIN.Visible = false;
-            lbTitle.Text = "الرئيسيه";
+            lbTitle.Text = "Trang chủ";
         }
 
 
@@ -940,7 +940,7 @@ namespace LibraryManagement.PresentationLayer
         {
             // Add BOOKS
             PresentationLayer.FRM_ADDBOOKS Fbooks = new FRM_ADDBOOKS();
-            Fbooks.btnBookAdd.Text = "اضافه";
+            Fbooks.btnBookAdd.Text = "Thêm";
             Fbooks.ID = 0;
             bunifuTransition1.ShowSync(Fbooks);
         }
@@ -949,7 +949,7 @@ namespace LibraryManagement.PresentationLayer
         {
             // Add STUDENT
             PresentationLayer.FRM_ADDSTUDENT FSTUDENT = new FRM_ADDSTUDENT();
-            FSTUDENT.btnAdd.Text = "اضافه";
+            FSTUDENT.btnAdd.Text = "Thêm";
             FSTUDENT.ID = 0;
             bunifuTransition1.ShowSync(FSTUDENT);
         }
@@ -958,7 +958,7 @@ namespace LibraryManagement.PresentationLayer
         {
             // Add SELL
             PresentationLayer.FRM_MAKESELL FSELL = new FRM_MAKESELL();
-            FSELL.btnAdd.Text = "اضافه";
+            FSELL.btnAdd.Text = "Thêm";
             FSELL.ID = 0;
             bunifuTransition1.ShowSync(FSELL);
         }
@@ -967,7 +967,7 @@ namespace LibraryManagement.PresentationLayer
         {
             // Add category
             PresentationLayer.FRM_ADDCAT Fcat = new FRM_ADDCAT();
-            Fcat.btnCatAdd.Text = "اضافه";
+            Fcat.btnCatAdd.Text = "Thêm";
             Fcat.ID = 0;
             bunifuTransition1.ShowSync(Fcat);
         }
@@ -976,7 +976,7 @@ namespace LibraryManagement.PresentationLayer
         {
             // Add BORROW
             PresentationLayer.FRM_BOR FBOR = new FRM_BOR();
-            FBOR.btnAdd.Text = "اضافه";
+            FBOR.btnAdd.Text = "Thêm";
             FBOR.ID = 0;
             bunifuTransition1.ShowSync(FBOR);
         }

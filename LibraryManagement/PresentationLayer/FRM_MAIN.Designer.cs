@@ -139,26 +139,26 @@ namespace LibraryManagement.PresentationLayer
             // 
             this.lblPrem.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.bunifuTransition1.SetDecoration(this.lblPrem, BunifuAnimatorNS.DecorationType.None);
-            this.lblPrem.Font = new System.Drawing.Font("LBC", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPrem.ForeColor = System.Drawing.Color.Purple;
             this.lblPrem.Location = new System.Drawing.Point(5, 154);
             this.lblPrem.Name = "lblPrem";
             this.lblPrem.Size = new System.Drawing.Size(165, 22);
             this.lblPrem.TabIndex = 0;
-            this.lblPrem.Text = "مدير";
+            this.lblPrem.Text = "Quản trị viên";
             this.lblPrem.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblName
             // 
             this.lblName.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.bunifuTransition1.SetDecoration(this.lblName, BunifuAnimatorNS.DecorationType.None);
-            this.lblName.Font = new System.Drawing.Font("LBC", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblName.ForeColor = System.Drawing.Color.White;
             this.lblName.Location = new System.Drawing.Point(5, 126);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(165, 28);
             this.lblName.TabIndex = 0;
-            this.lblName.Text = "ياسر الراوي";
+            this.lblName.Text = "Yasir Al-Rawi";
             this.lblName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnCategory
@@ -174,18 +174,18 @@ namespace LibraryManagement.PresentationLayer
             this.btnCategory.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnCategory.FillColor = System.Drawing.Color.Empty;
             this.btnCategory.FillColor2 = System.Drawing.Color.Empty;
-            this.btnCategory.Font = new System.Drawing.Font("LBC", 14.25F);
+            this.btnCategory.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.btnCategory.ForeColor = System.Drawing.Color.White;
             this.btnCategory.HoverState.FillColor = System.Drawing.Color.Black;
             this.btnCategory.HoverState.FillColor2 = System.Drawing.Color.Purple;
-            this.btnCategory.HoverState.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnCategory.HoverState.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnCategory.Image = global::LibraryManagement.Properties.Resources.Category;
             this.btnCategory.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnCategory.Location = new System.Drawing.Point(-1, 438);
             this.btnCategory.Name = "btnCategory";
             this.btnCategory.Size = new System.Drawing.Size(176, 58);
             this.btnCategory.TabIndex = 1;
-            this.btnCategory.Text = "الاصناف";
+            this.btnCategory.Text = "Danh mục";
             this.btnCategory.UseTransparentBackground = true;
             this.btnCategory.Click += new System.EventHandler(this.btnCategory_Click);
             // 
@@ -230,18 +230,18 @@ namespace LibraryManagement.PresentationLayer
             this.btnUsers.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnUsers.FillColor = System.Drawing.Color.Empty;
             this.btnUsers.FillColor2 = System.Drawing.Color.Empty;
-            this.btnUsers.Font = new System.Drawing.Font("LBC", 14.25F);
+            this.btnUsers.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.btnUsers.ForeColor = System.Drawing.Color.White;
             this.btnUsers.HoverState.FillColor = System.Drawing.Color.Black;
             this.btnUsers.HoverState.FillColor2 = System.Drawing.Color.Purple;
-            this.btnUsers.HoverState.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnUsers.HoverState.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnUsers.Image = global::LibraryManagement.Properties.Resources.user_filled_40px;
             this.btnUsers.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnUsers.Location = new System.Drawing.Point(-1, 568);
             this.btnUsers.Name = "btnUsers";
             this.btnUsers.Size = new System.Drawing.Size(176, 58);
             this.btnUsers.TabIndex = 1;
-            this.btnUsers.Text = "المستخدمين";
+            this.btnUsers.Text = "Người dùng";
             this.btnUsers.UseTransparentBackground = true;
             this.btnUsers.Click += new System.EventHandler(this.btnUsers_Click);
             // 
@@ -258,18 +258,18 @@ namespace LibraryManagement.PresentationLayer
             this.btnBorrow.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnBorrow.FillColor = System.Drawing.Color.Empty;
             this.btnBorrow.FillColor2 = System.Drawing.Color.Empty;
-            this.btnBorrow.Font = new System.Drawing.Font("LBC", 14.25F);
+            this.btnBorrow.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.btnBorrow.ForeColor = System.Drawing.Color.White;
             this.btnBorrow.HoverState.FillColor = System.Drawing.Color.Black;
             this.btnBorrow.HoverState.FillColor2 = System.Drawing.Color.Purple;
-            this.btnBorrow.HoverState.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnBorrow.HoverState.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnBorrow.Image = global::LibraryManagement.Properties.Resources.borrow_book_40px;
             this.btnBorrow.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnBorrow.Location = new System.Drawing.Point(-1, 503);
             this.btnBorrow.Name = "btnBorrow";
             this.btnBorrow.Size = new System.Drawing.Size(176, 58);
             this.btnBorrow.TabIndex = 1;
-            this.btnBorrow.Text = "الاستعارة";
+            this.btnBorrow.Text = "Sách mượn";
             this.btnBorrow.UseTransparentBackground = true;
             this.btnBorrow.Click += new System.EventHandler(this.btnBorrow_Click);
             // 
@@ -286,18 +286,18 @@ namespace LibraryManagement.PresentationLayer
             this.btnSell.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnSell.FillColor = System.Drawing.Color.Empty;
             this.btnSell.FillColor2 = System.Drawing.Color.Empty;
-            this.btnSell.Font = new System.Drawing.Font("LBC", 14.25F);
+            this.btnSell.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.btnSell.ForeColor = System.Drawing.Color.White;
             this.btnSell.HoverState.FillColor = System.Drawing.Color.Black;
             this.btnSell.HoverState.FillColor2 = System.Drawing.Color.Purple;
-            this.btnSell.HoverState.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnSell.HoverState.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnSell.Image = global::LibraryManagement.Properties.Resources.Sell1;
             this.btnSell.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnSell.Location = new System.Drawing.Point(-1, 373);
             this.btnSell.Name = "btnSell";
             this.btnSell.Size = new System.Drawing.Size(176, 58);
             this.btnSell.TabIndex = 1;
-            this.btnSell.Text = "البيع";
+            this.btnSell.Text = "Bán sách";
             this.btnSell.UseTransparentBackground = true;
             this.btnSell.Click += new System.EventHandler(this.btnSell_Click);
             // 
@@ -314,18 +314,18 @@ namespace LibraryManagement.PresentationLayer
             this.btnStudent.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnStudent.FillColor = System.Drawing.Color.Empty;
             this.btnStudent.FillColor2 = System.Drawing.Color.Empty;
-            this.btnStudent.Font = new System.Drawing.Font("LBC", 14.25F);
+            this.btnStudent.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.btnStudent.ForeColor = System.Drawing.Color.White;
             this.btnStudent.HoverState.FillColor = System.Drawing.Color.Black;
             this.btnStudent.HoverState.FillColor2 = System.Drawing.Color.Purple;
-            this.btnStudent.HoverState.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnStudent.HoverState.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnStudent.Image = global::LibraryManagement.Properties.Resources.Student;
             this.btnStudent.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnStudent.Location = new System.Drawing.Point(-1, 308);
             this.btnStudent.Name = "btnStudent";
             this.btnStudent.Size = new System.Drawing.Size(176, 58);
             this.btnStudent.TabIndex = 1;
-            this.btnStudent.Text = "الطلاب";
+            this.btnStudent.Text = "Sinh viên";
             this.btnStudent.UseTransparentBackground = true;
             this.btnStudent.Click += new System.EventHandler(this.btnStudent_Click);
             // 
@@ -342,11 +342,11 @@ namespace LibraryManagement.PresentationLayer
             this.btnBooks.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnBooks.FillColor = System.Drawing.Color.Empty;
             this.btnBooks.FillColor2 = System.Drawing.Color.Empty;
-            this.btnBooks.Font = new System.Drawing.Font("LBC", 14.25F);
+            this.btnBooks.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.btnBooks.ForeColor = System.Drawing.Color.White;
             this.btnBooks.HoverState.FillColor = System.Drawing.Color.Black;
             this.btnBooks.HoverState.FillColor2 = System.Drawing.Color.Purple;
-            this.btnBooks.HoverState.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnBooks.HoverState.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnBooks.Image = ((System.Drawing.Image)(resources.GetObject("btnBooks.Image")));
             this.btnBooks.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnBooks.ImageOffset = new System.Drawing.Point(-7, 0);
@@ -355,7 +355,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnBooks.Name = "btnBooks";
             this.btnBooks.Size = new System.Drawing.Size(176, 58);
             this.btnBooks.TabIndex = 1;
-            this.btnBooks.Text = "الكتب";
+            this.btnBooks.Text = "Sách";
             this.btnBooks.UseTransparentBackground = true;
             this.btnBooks.Click += new System.EventHandler(this.btnBooks_Click);
             // 
@@ -372,18 +372,18 @@ namespace LibraryManagement.PresentationLayer
             this.btnHome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnHome.FillColor = System.Drawing.Color.Empty;
             this.btnHome.FillColor2 = System.Drawing.Color.Empty;
-            this.btnHome.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnHome.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnHome.ForeColor = System.Drawing.Color.White;
             this.btnHome.HoverState.FillColor = System.Drawing.Color.Black;
             this.btnHome.HoverState.FillColor2 = System.Drawing.Color.Purple;
-            this.btnHome.HoverState.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.HoverState.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHome.Image = ((System.Drawing.Image)(resources.GetObject("btnHome.Image")));
             this.btnHome.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.btnHome.Location = new System.Drawing.Point(-1, 178);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(176, 58);
             this.btnHome.TabIndex = 1;
-            this.btnHome.Text = "الرئيسية";
+            this.btnHome.Text = "Trang chủ";
             this.btnHome.UseTransparentBackground = true;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
@@ -409,13 +409,13 @@ namespace LibraryManagement.PresentationLayer
             this.lbTitle.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lbTitle.AutoSize = true;
             this.bunifuTransition1.SetDecoration(this.lbTitle, BunifuAnimatorNS.DecorationType.None);
-            this.lbTitle.Font = new System.Drawing.Font("LBC", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTitle.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTitle.ForeColor = System.Drawing.Color.White;
             this.lbTitle.Location = new System.Drawing.Point(417, 9);
             this.lbTitle.Name = "lbTitle";
             this.lbTitle.Size = new System.Drawing.Size(89, 28);
             this.lbTitle.TabIndex = 0;
-            this.lbTitle.Text = "الرئيسية";
+            this.lbTitle.Text = "Trang chủ";
             // 
             // btnLogout
             // 
@@ -537,7 +537,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnAddBorrow.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnAddBorrow.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnAddBorrow.FillColor2 = System.Drawing.Color.Purple;
-            this.btnAddBorrow.Font = new System.Drawing.Font("LBC", 14.25F);
+            this.btnAddBorrow.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.btnAddBorrow.ForeColor = System.Drawing.Color.White;
             this.btnAddBorrow.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             this.btnAddBorrow.Image = ((System.Drawing.Image)(resources.GetObject("btnAddBorrow.Image")));
@@ -547,7 +547,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnAddBorrow.Name = "btnAddBorrow";
             this.btnAddBorrow.Size = new System.Drawing.Size(124, 92);
             this.btnAddBorrow.TabIndex = 2;
-            this.btnAddBorrow.Text = "استعاره";
+            this.btnAddBorrow.Text = "Mượn sách";
             this.btnAddBorrow.Tile = true;
             this.btnAddBorrow.Click += new System.EventHandler(this.btnAddBorrow_Click);
             // 
@@ -563,7 +563,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnAddCat.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnAddCat.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnAddCat.FillColor2 = System.Drawing.Color.Purple;
-            this.btnAddCat.Font = new System.Drawing.Font("LBC", 14.25F);
+            this.btnAddCat.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.btnAddCat.ForeColor = System.Drawing.Color.White;
             this.btnAddCat.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             this.btnAddCat.Image = ((System.Drawing.Image)(resources.GetObject("btnAddCat.Image")));
@@ -573,7 +573,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnAddCat.Name = "btnAddCat";
             this.btnAddCat.Size = new System.Drawing.Size(124, 92);
             this.btnAddCat.TabIndex = 2;
-            this.btnAddCat.Text = "اضافه صنف";
+            this.btnAddCat.Text = "Thêm danh mục";
             this.btnAddCat.Tile = true;
             this.btnAddCat.Click += new System.EventHandler(this.btnAddCat_Click);
             // 
@@ -589,7 +589,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnSellBook.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnSellBook.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnSellBook.FillColor2 = System.Drawing.Color.Purple;
-            this.btnSellBook.Font = new System.Drawing.Font("LBC", 14.25F);
+            this.btnSellBook.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.btnSellBook.ForeColor = System.Drawing.Color.White;
             this.btnSellBook.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             this.btnSellBook.Image = ((System.Drawing.Image)(resources.GetObject("btnSellBook.Image")));
@@ -599,7 +599,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnSellBook.Name = "btnSellBook";
             this.btnSellBook.Size = new System.Drawing.Size(124, 92);
             this.btnSellBook.TabIndex = 2;
-            this.btnSellBook.Text = "بيع كتاب";
+            this.btnSellBook.Text = "Bán sách";
             this.btnSellBook.Tile = true;
             this.btnSellBook.Click += new System.EventHandler(this.btnSellBook_Click);
             // 
@@ -615,7 +615,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnAddBook.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnAddBook.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnAddBook.FillColor2 = System.Drawing.Color.Purple;
-            this.btnAddBook.Font = new System.Drawing.Font("LBC", 14.25F);
+            this.btnAddBook.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.btnAddBook.ForeColor = System.Drawing.Color.White;
             this.btnAddBook.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             this.btnAddBook.Image = ((System.Drawing.Image)(resources.GetObject("btnAddBook.Image")));
@@ -625,7 +625,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnAddBook.Name = "btnAddBook";
             this.btnAddBook.Size = new System.Drawing.Size(124, 92);
             this.btnAddBook.TabIndex = 2;
-            this.btnAddBook.Text = "اضافه كتاب";
+            this.btnAddBook.Text = "Thêm sách";
             this.btnAddBook.Tile = true;
             this.btnAddBook.Click += new System.EventHandler(this.btnAddBook_Click);
             // 
@@ -641,7 +641,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnAddStudent.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnAddStudent.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnAddStudent.FillColor2 = System.Drawing.Color.Purple;
-            this.btnAddStudent.Font = new System.Drawing.Font("LBC", 14.25F);
+            this.btnAddStudent.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.btnAddStudent.ForeColor = System.Drawing.Color.White;
             this.btnAddStudent.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
             this.btnAddStudent.Image = ((System.Drawing.Image)(resources.GetObject("btnAddStudent.Image")));
@@ -651,7 +651,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnAddStudent.Name = "btnAddStudent";
             this.btnAddStudent.Size = new System.Drawing.Size(124, 92);
             this.btnAddStudent.TabIndex = 2;
-            this.btnAddStudent.Text = "اضافه طالب";
+            this.btnAddStudent.Text = "Thêm sinh viên";
             this.btnAddStudent.Tile = true;
             this.btnAddStudent.Click += new System.EventHandler(this.btnAddStudent_Click);
             // 
@@ -677,7 +677,7 @@ namespace LibraryManagement.PresentationLayer
             this.lblUsers.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblUsers.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.lblUsers, BunifuAnimatorNS.DecorationType.None);
-            this.lblUsers.Font = new System.Drawing.Font("LBC", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsers.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsers.ForeColor = System.Drawing.Color.White;
             this.lblUsers.Location = new System.Drawing.Point(3, 113);
             this.lblUsers.Name = "lblUsers";
@@ -692,13 +692,13 @@ namespace LibraryManagement.PresentationLayer
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label13, BunifuAnimatorNS.DecorationType.None);
-            this.label13.Font = new System.Drawing.Font("LBC", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
             this.label13.Location = new System.Drawing.Point(36, 26);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(197, 43);
             this.label13.TabIndex = 0;
-            this.label13.Text = "المستخدمين";
+            this.label13.Text = "Người dùng";
             // 
             // guna2CustomGradientPanel3
             // 
@@ -722,7 +722,7 @@ namespace LibraryManagement.PresentationLayer
             this.lblSell.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblSell.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.lblSell, BunifuAnimatorNS.DecorationType.None);
-            this.lblSell.Font = new System.Drawing.Font("LBC", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSell.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSell.ForeColor = System.Drawing.Color.White;
             this.lblSell.Location = new System.Drawing.Point(0, 113);
             this.lblSell.Name = "lblSell";
@@ -737,13 +737,13 @@ namespace LibraryManagement.PresentationLayer
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label7, BunifuAnimatorNS.DecorationType.None);
-            this.label7.Font = new System.Drawing.Font("LBC", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(28, 26);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(212, 43);
             this.label7.TabIndex = 0;
-            this.label7.Text = "عدد المبيعات";
+            this.label7.Text = "Số lượng bán";
             // 
             // guna2CustomGradientPanel5
             // 
@@ -767,7 +767,7 @@ namespace LibraryManagement.PresentationLayer
             this.lblCategory.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblCategory.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.lblCategory, BunifuAnimatorNS.DecorationType.None);
-            this.lblCategory.Font = new System.Drawing.Font("LBC", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCategory.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCategory.ForeColor = System.Drawing.Color.White;
             this.lblCategory.Location = new System.Drawing.Point(3, 113);
             this.lblCategory.Name = "lblCategory";
@@ -782,13 +782,13 @@ namespace LibraryManagement.PresentationLayer
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label11, BunifuAnimatorNS.DecorationType.None);
-            this.label11.Font = new System.Drawing.Font("LBC", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(70, 26);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(129, 43);
             this.label11.TabIndex = 0;
-            this.label11.Text = "الاصناف";
+            this.label11.Text = "Danh mục";
             // 
             // guna2CustomGradientPanel2
             // 
@@ -812,7 +812,7 @@ namespace LibraryManagement.PresentationLayer
             this.lblStudent.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblStudent.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.lblStudent, BunifuAnimatorNS.DecorationType.None);
-            this.lblStudent.Font = new System.Drawing.Font("LBC", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStudent.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudent.ForeColor = System.Drawing.Color.White;
             this.lblStudent.Location = new System.Drawing.Point(0, 113);
             this.lblStudent.Name = "lblStudent";
@@ -827,13 +827,13 @@ namespace LibraryManagement.PresentationLayer
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label5, BunifuAnimatorNS.DecorationType.None);
-            this.label5.Font = new System.Drawing.Font("LBC", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(40, 26);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(189, 43);
             this.label5.TabIndex = 0;
-            this.label5.Text = "عدد الطلاب";
+            this.label5.Text = "Số lượng sinh viên";
             // 
             // guna2CustomGradientPanel4
             // 
@@ -857,7 +857,7 @@ namespace LibraryManagement.PresentationLayer
             this.lblBorrow.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblBorrow.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.lblBorrow, BunifuAnimatorNS.DecorationType.None);
-            this.lblBorrow.Font = new System.Drawing.Font("LBC", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBorrow.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBorrow.ForeColor = System.Drawing.Color.White;
             this.lblBorrow.Location = new System.Drawing.Point(3, 113);
             this.lblBorrow.Name = "lblBorrow";
@@ -872,13 +872,13 @@ namespace LibraryManagement.PresentationLayer
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label9, BunifuAnimatorNS.DecorationType.None);
-            this.label9.Font = new System.Drawing.Font("LBC", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(60, 26);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(148, 43);
             this.label9.TabIndex = 0;
-            this.label9.Text = "الاستعارة";
+            this.label9.Text = "Sách mượn";
             // 
             // guna2CustomGradientPanel1
             // 
@@ -903,7 +903,7 @@ namespace LibraryManagement.PresentationLayer
             this.lblBook.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblBook.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.lblBook, BunifuAnimatorNS.DecorationType.None);
-            this.lblBook.Font = new System.Drawing.Font("LBC", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBook.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBook.ForeColor = System.Drawing.Color.White;
             this.lblBook.Location = new System.Drawing.Point(0, 113);
             this.lblBook.Name = "lblBook";
@@ -918,13 +918,13 @@ namespace LibraryManagement.PresentationLayer
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label2, BunifuAnimatorNS.DecorationType.None);
-            this.label2.Font = new System.Drawing.Font("LBC", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(48, 26);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(173, 43);
             this.label2.TabIndex = 0;
-            this.label2.Text = "عدد الكتب";
+            this.label2.Text = "Số lượng sách";
             // 
             // P_MAIN
             // 
@@ -953,7 +953,7 @@ namespace LibraryManagement.PresentationLayer
             this.dataGridView1.BackgroundColor = System.Drawing.Color.Black;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Black;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
@@ -963,7 +963,7 @@ namespace LibraryManagement.PresentationLayer
             this.bunifuTransition1.SetDecoration(this.dataGridView1, BunifuAnimatorNS.DecorationType.None);
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Red;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Black;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Purple;
@@ -977,7 +977,7 @@ namespace LibraryManagement.PresentationLayer
             this.dataGridView1.ReadOnly = true;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle4.BackColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Purple;
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
@@ -1020,7 +1020,7 @@ namespace LibraryManagement.PresentationLayer
             this.txtSearch.BackColor = System.Drawing.Color.Black;
             this.txtSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTransition1.SetDecoration(this.txtSearch, BunifuAnimatorNS.DecorationType.None);
-            this.txtSearch.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearch.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.ForeColor = System.Drawing.Color.Purple;
             this.txtSearch.HintForeColor = System.Drawing.Color.Gray;
             this.txtSearch.HintText = "ابحث هنا";
@@ -1066,7 +1066,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnDetails.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnDetails.FillColor = System.Drawing.Color.Purple;
             this.btnDetails.FillColor2 = System.Drawing.Color.Black;
-            this.btnDetails.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnDetails.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnDetails.ForeColor = System.Drawing.Color.White;
             this.btnDetails.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnDetails.ImageOffset = new System.Drawing.Point(0, 20);
@@ -1075,7 +1075,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnDetails.Name = "btnDetails";
             this.btnDetails.Size = new System.Drawing.Size(201, 45);
             this.btnDetails.TabIndex = 3;
-            this.btnDetails.Text = "تفاصيل";
+            this.btnDetails.Text = "Chi tiết";
             this.btnDetails.Tile = true;
             this.btnDetails.Click += new System.EventHandler(this.btnDetails_Click);
             // 
@@ -1097,7 +1097,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnDelete.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnDelete.FillColor = System.Drawing.Color.Purple;
             this.btnDelete.FillColor2 = System.Drawing.Color.Black;
-            this.btnDelete.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnDelete.ForeColor = System.Drawing.Color.White;
             this.btnDelete.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnDelete.ImageOffset = new System.Drawing.Point(0, 20);
@@ -1106,7 +1106,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(201, 45);
             this.btnDelete.TabIndex = 3;
-            this.btnDelete.Text = "حذف";
+            this.btnDelete.Text = "Xóa";
             this.btnDelete.Tile = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
@@ -1128,7 +1128,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnEdit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnEdit.FillColor = System.Drawing.Color.Purple;
             this.btnEdit.FillColor2 = System.Drawing.Color.Black;
-            this.btnEdit.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnEdit.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnEdit.ForeColor = System.Drawing.Color.White;
             this.btnEdit.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnEdit.ImageOffset = new System.Drawing.Point(0, 20);
@@ -1137,7 +1137,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(201, 45);
             this.btnEdit.TabIndex = 3;
-            this.btnEdit.Text = "تعديل";
+            this.btnEdit.Text = "Sửa";
             this.btnEdit.Tile = true;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
@@ -1157,7 +1157,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnAdd.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnAdd.FillColor = System.Drawing.Color.Purple;
             this.btnAdd.FillColor2 = System.Drawing.Color.Black;
-            this.btnAdd.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnAdd.ForeColor = System.Drawing.Color.White;
             this.btnAdd.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnAdd.ImageOffset = new System.Drawing.Point(0, 20);
@@ -1166,7 +1166,7 @@ namespace LibraryManagement.PresentationLayer
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(201, 45);
             this.btnAdd.TabIndex = 3;
-            this.btnAdd.Text = "اضافه";
+            this.btnAdd.Text = "Thêm";
             this.btnAdd.Tile = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
@@ -1225,7 +1225,7 @@ namespace LibraryManagement.PresentationLayer
             this.Controls.Add(this.P_TB);
             this.Controls.Add(this.P_MB);
             this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
-            this.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FRM_MAIN";

@@ -63,7 +63,7 @@ namespace LibraryManagement.PresentationLayer
                     BL.CLS_SELL BLSELL = new BL.CLS_SELL();
                     BLSELL.Insert(dataGridView1.CurrentRow.Cells[1].Value.ToString(), dataGridView2.CurrentRow.Cells[1].Value.ToString(), Convert.ToInt32(txtPrice.Text), SellDate.Value.ToString());
                     PresentationLayer.FRM_ADDED frmadded = new FRM_ADDED();
-                    frmadded.lblAdd.Text = "تم بيع الكتاب";
+                    frmadded.lblAdd.Text = "Đã bán sách thành công";
                     frmadded.Show();
                     this.Close();
                 }

@@ -102,26 +102,26 @@ namespace LibraryManagement.PresentationLayer
             this.lblBookDate.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblBookDate.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.lblBookDate, BunifuAnimatorNS.DecorationType.None);
-            this.lblBookDate.Font = new System.Drawing.Font("LBC", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBookDate.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBookDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.lblBookDate.Location = new System.Drawing.Point(350, 478);
             this.lblBookDate.Name = "lblBookDate";
             this.lblBookDate.Size = new System.Drawing.Size(314, 35);
             this.lblBookDate.TabIndex = 26;
-            this.lblBookDate.Text = "تاريخ النشر :";
+            this.lblBookDate.Text = "Ngày xuất bản :";
             // 
             // lblBookCat
             // 
             this.lblBookCat.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblBookCat.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.lblBookCat, BunifuAnimatorNS.DecorationType.None);
-            this.lblBookCat.Font = new System.Drawing.Font("LBC", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBookCat.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBookCat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.lblBookCat.Location = new System.Drawing.Point(350, 382);
             this.lblBookCat.Name = "lblBookCat";
             this.lblBookCat.Size = new System.Drawing.Size(301, 35);
             this.lblBookCat.TabIndex = 27;
-            this.lblBookCat.Text = "صنف الكتاب :";
+            this.lblBookCat.Text = "Danh mục sách :";
             // 
             // label1
             // 
@@ -129,27 +129,27 @@ namespace LibraryManagement.PresentationLayer
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label1, BunifuAnimatorNS.DecorationType.None);
-            this.label1.Font = new System.Drawing.Font("LBC", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label1.Location = new System.Drawing.Point(670, 478);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label1.Size = new System.Drawing.Size(152, 35);
             this.label1.TabIndex = 28;
-            this.label1.Text = "تاريخ النشر :";
+            this.label1.Text = "Ngày xuất bản :";
             // 
             // lblBookPrice
             // 
             this.lblBookPrice.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblBookPrice.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.lblBookPrice, BunifuAnimatorNS.DecorationType.None);
-            this.lblBookPrice.Font = new System.Drawing.Font("LBC", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBookPrice.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBookPrice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.lblBookPrice.Location = new System.Drawing.Point(350, 286);
             this.lblBookPrice.Name = "lblBookPrice";
             this.lblBookPrice.Size = new System.Drawing.Size(369, 35);
             this.lblBookPrice.TabIndex = 30;
-            this.lblBookPrice.Text = "السعر";
+            this.lblBookPrice.Text = "Giá";
             // 
             // lblBook
             // 
@@ -157,27 +157,27 @@ namespace LibraryManagement.PresentationLayer
             this.lblBook.AutoSize = true;
             this.lblBook.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.lblBook, BunifuAnimatorNS.DecorationType.None);
-            this.lblBook.Font = new System.Drawing.Font("LBC", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBook.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBook.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.lblBook.Location = new System.Drawing.Point(654, 382);
             this.lblBook.Name = "lblBook";
             this.lblBook.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.lblBook.Size = new System.Drawing.Size(168, 35);
             this.lblBook.TabIndex = 29;
-            this.lblBook.Text = "صنف الكتاب :";
+            this.lblBook.Text = "Danh mục sách :";
             // 
             // lblBookAuthr
             // 
             this.lblBookAuthr.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblBookAuthr.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.lblBookAuthr, BunifuAnimatorNS.DecorationType.None);
-            this.lblBookAuthr.Font = new System.Drawing.Font("LBC", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBookAuthr.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBookAuthr.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.lblBookAuthr.Location = new System.Drawing.Point(350, 190);
             this.lblBookAuthr.Name = "lblBookAuthr";
             this.lblBookAuthr.Size = new System.Drawing.Size(354, 35);
             this.lblBookAuthr.TabIndex = 32;
-            this.lblBookAuthr.Text = "المؤلف";
+            this.lblBookAuthr.Text = "của";
             // 
             // label4
             // 
@@ -185,27 +185,27 @@ namespace LibraryManagement.PresentationLayer
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label4, BunifuAnimatorNS.DecorationType.None);
-            this.label4.Font = new System.Drawing.Font("LBC", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label4.Location = new System.Drawing.Point(725, 286);
             this.label4.Name = "label4";
             this.label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label4.Size = new System.Drawing.Size(97, 35);
             this.label4.TabIndex = 31;
-            this.label4.Text = "السعر :";
+            this.label4.Text = "Giá :";
             // 
             // lblBookName
             // 
             this.lblBookName.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblBookName.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.lblBookName, BunifuAnimatorNS.DecorationType.None);
-            this.lblBookName.Font = new System.Drawing.Font("LBC", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBookName.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBookName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.lblBookName.Location = new System.Drawing.Point(350, 94);
             this.lblBookName.Name = "lblBookName";
             this.lblBookName.Size = new System.Drawing.Size(307, 35);
             this.lblBookName.TabIndex = 34;
-            this.lblBookName.Text = "اسم الكتاب";
+            this.lblBookName.Text = "củasách";
             // 
             // label3
             // 
@@ -213,14 +213,14 @@ namespace LibraryManagement.PresentationLayer
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label3, BunifuAnimatorNS.DecorationType.None);
-            this.label3.Font = new System.Drawing.Font("LBC", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label3.Location = new System.Drawing.Point(710, 190);
             this.label3.Name = "label3";
             this.label3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label3.Size = new System.Drawing.Size(112, 35);
             this.label3.TabIndex = 33;
-            this.label3.Text = "المؤلف :";
+            this.label3.Text = "của :";
             // 
             // label2
             // 
@@ -228,14 +228,14 @@ namespace LibraryManagement.PresentationLayer
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.bunifuTransition1.SetDecoration(this.label2, BunifuAnimatorNS.DecorationType.None);
-            this.label2.Font = new System.Drawing.Font("LBC", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.label2.Location = new System.Drawing.Point(663, 94);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label2.Size = new System.Drawing.Size(159, 35);
             this.label2.TabIndex = 35;
-            this.label2.Text = "اسم الكتاب :";
+            this.label2.Text = "củasách :";
             // 
             // BookRate
             // 
@@ -295,7 +295,7 @@ namespace LibraryManagement.PresentationLayer
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.guna2GradientPanel2);
             this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
-            this.Font = new System.Drawing.Font("LBC", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FRM_DETAİLSBOOKS";

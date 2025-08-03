@@ -263,9 +263,9 @@ namespace LibraryManagement.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap لقطة_الشاشة_2022_07_09_141638 {
+        internal static System.Drawing.Bitmap لقطة_củaشاشة_2022_07_09_141638 {
             get {
-                object obj = ResourceManager.GetObject("لقطة الشاشة 2022-07-09 141638", resourceCulture);
+                object obj = ResourceManager.GetObject("لقطة củaشاشة 2022-07-09 141638", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
